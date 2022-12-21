@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./index.css"
 
-function App() {
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { HugoTable } from "./components/HugoTable"
+// import { Radio } from "./components/Radio"
+import { DynamicForm} from "./components/DynamicForm";
+//import { Link, Outlet } from "react-router-dom";
+
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <BrowserRouter>
+    //   <main>
+    //     <nav>
+    //       <ul>
+    //         <li><a href="/">Home</a></li>
+    //         <li><a href="/table">Table</a></li>
+    //         <li><a href="/form">Form</a></li>
+    //         <li><a href="/dynaform">Form</a></li>
+    //       </ul>
+    //     </nav>
+    //     <Routes>
+    //     <Route exact path="/" element={<Home />} />
+    //       <Route exact path="/table" element={<HugoTable />} />
+    //       <Route exact path="/form" element={<Radio />} />
+    //       <Route exact path="/dynaform" element={<DynamicForm formData={formData} onSubmit="" />} />
+    //     </Routes>
+    //   </main>
+    // </BrowserRouter>
+    <DynamicForm />
   );
 }
 
-export default App;
+// function Home() {
+//   return (
+//     <div>
+//       <nav>
+//         <Link to="me">My Profile</Link>
+//       </nav>
+//       <Outlet />
+//     </div>
+//   );
+// }

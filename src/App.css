@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.light {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
