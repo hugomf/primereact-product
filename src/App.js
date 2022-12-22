@@ -4,7 +4,7 @@ import "./index.css"
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import { HugoTable } from "./components/HugoTable"
 // import { Radio } from "./components/Radio"
-import { DynamicForm} from "./components/DynamicForm";
+import { ProductEditor } from "./components/ProductEditor";
 //import { Link, Outlet } from "react-router-dom";
 
 
@@ -28,7 +28,7 @@ export default function App() {
     //     </Routes>
     //   </main>
     // </BrowserRouter>
-    <DynamicForm />
+    <ProductEditor />
   );
 }
 

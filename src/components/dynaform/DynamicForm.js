@@ -14,25 +14,17 @@ const DynamicForm = () => {
     password: '',
     remember: true,
     message:'',
+    planet: 'earth',
     country: null
   }
 
   const [showMessage, setShowMessage] = useState(false);
-  const { control, formState: { errors }, handleSubmit, reset } = useForm({ defaultValues });
+  const { control, formState: { errors }, handleSubmit, reset, register } = useForm({ defaultValues });
   const [formData, setFormData] = useState({});
 
-  const dialogFooter = <div className="flex justify-content-center"><Button label="OK" className="p-button-text" autoFocus onClick={() => setShowMessage(false)} /></div>;
+  const dialogFooter = <div className="flex justify-content-center">
+      <Button label="OK" className="p-button-text" autoFocus onClick={() => setShowMessage(false)} /></div>;
    
-
-  // useEffect(() => {
-  //   const firstError = Object.keys(errors).reduce((field, a) => {
-  //     return !!errors[field] ? field : a;
-  //   }, null);
-
-  //   if (firstError) {
-  //     setFocus(firstError);
-  //   }
-  // }, [errors, setFocus]);
 
   const onSubmit = data => {
     setFormData(data);
@@ -44,12 +36,15 @@ const DynamicForm = () => {
 
   return (
     <div className="form-demo">
-       <Dialog visible={showMessage} onHide={() => setShowMessage(false)} position="top" footer={dialogFooter} showHeader={false} breakpoints={{ '960px': '80vw' }} style={{ width: '30vw' }}>
+       <Dialog visible={showMessage} onHide={() => setShowMessage(false)} position="top" footer={dialogFooter} 
+        showHeader={false} breakpoints={{ '960px': '80vw' }} style={{ width: '30vw' }}>
           <div className="flex justify-content-center flex-column pt-6 px-3">
               <i className="pi pi-check-circle" style={{ fontSize: '5rem', color: 'var(--green-500)' }}></i>
               <h5>Registration Successful!</h5>
               <p style={{ lineHeight: 1.5, textIndent: '1rem' }}>
-                  Your account is registered under name <b>{formData.name}</b> ; it'll be valid next 30 days without activation. Please check <b>{formData.email}</b> for activation instructions.
+                  Your account is registered under name <b>{formData.name}</b> ; 
+                  it'll be valid next 30 days without activation. Please check <b>{formData.email}</b> 
+                  for activation instructions.
               </p>
           </div>
         </Dialog>
@@ -60,8 +55,8 @@ const DynamicForm = () => {
             { Object.keys(formSpec).map(key => {
                 const field = formSpec[key];
                 const input = inputMapping[field.type]
-                  ? inputMapping[field.type](key, field, errors, control)
-                  : inputMapping['text'](key, field, errors, control);
+                  ? inputMapping[field.type](key, field, errors, control, register)
+                  : inputMapping['text'](key, field, errors, control, register);
                   console.log("Key", key);
                 return (
                   <div key={key}>

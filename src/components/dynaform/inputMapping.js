@@ -8,7 +8,7 @@ import { Divider } from 'primereact/divider';
 import React from 'react';
 import { Checkbox } from 'primereact/checkbox';
 import { Dropdown } from 'primereact/dropdown';
-import { RadioButton } from 'primereact/radiobutton';
+
 import { Button } from 'primereact/button';
 import { InputTextarea } from 'primereact/inputtextarea';
 
@@ -106,6 +106,7 @@ export const inputMapping = {
       {getFormErrorMessage(key, errors)}
     </div>
   ),
+  
   checkbox: (key, fieldSpec, errors, control) => (
     <div className="field-checkbox">
         <Controller 
@@ -140,27 +141,50 @@ export const inputMapping = {
       {getFormErrorMessage(key, errors)}
     </div>
   ),
-  radio: (key, fieldSpec, errors, control) => (
+  // radio: (key, fieldSpec, errors, control) => (
+  //   <div className="field">
+  //     <span className="p-float-label"></span>
+  //       <div key={key} className="field-radiobutton">
+  //         { fieldSpec.options.map((option, index) => (
+  //             <Controller 
+  //               name={option.value}
+  //               control={control} 
+  //               render={({ field }) => (
+  //                 <>
+  //                   {console.log("hola", )}
+  //                   <RadioButton
+  //                     inputId={key + index}
+  //                     {...field} 
+  //                     onChange={(e) => field.onChange(e.value)} 
+  //                     checked={field.value === option.value} 
+  //                     />
+  //                     <label htmlFor={key}>{option.label}</label>
+  //                 </>
+  //               )}/>
+  //         ))}
+  //       </div>  
+  //   </div>
+  // ),
+
+
+  radio: (key, fieldSpec, errors, control, register) => (
     <div className="field">
       <span className="p-float-label"></span>
-
-         <Controller 
-          name={key} 
-          control={control} 
-          rules={{ required: fieldSpec.required }} 
-          render={({ field, onChange }) => (
-            fieldSpec.options.map((option) => (
-              <div className="form-group"> {option.name}
-                <RadioButton
-                  id={field.name}  
-                  {...field} 
-                  checked={field.value} 
-                   />
-                  <label htmlFor={key} className={classNames({ 'p-error': errors[key] })}>{option.label}</label>
-              </div>
-            ))
-          )} />
-          
+          <fieldset key={key} className="field-radiobutton">
+          <legend>{fieldSpec.label}</legend>
+          { fieldSpec.options.map((option, index) => (
+             <label htmlFor={'field-' + option.value}>
+              <input
+                 {...register(key)}
+                 value={option.value}
+                 key={key}
+                 type="radio"
+                 id={'field-' + option.value}
+              />
+              {option.label}
+            </label>
+          ))}
+          </fieldset>
     </div>
   ),
 

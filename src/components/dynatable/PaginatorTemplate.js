@@ -1,7 +1,6 @@
 import { Dropdown } from 'primereact/dropdown';
 import { Ripple } from 'primereact/ripple';
 import { classNames } from 'primereact/utils';
-import { Button } from "primereact/button";
 
 export const paginatorTemplate = {
     layout: 'PrevPageLink PageLinks NextPageLink RowsPerPageDropdown CurrentPageReport',
@@ -55,27 +54,3 @@ export const paginatorTemplate = {
 };
 
 
-export const headerTemplate = (
-    <div>
-        <Button 
-          className="mr-2"
-          icon="pi pi-plus"
-          label="Add Product"
-        />
-    </div>
-);
-
-export const actionsTemplate = (
-
-    <div>
-        <Button 
-          className="p-button-rounded mr-2"
-          icon="pi pi-pencil"
-        />
-        <Button 
-          className="p-button-rounded p-button-danger mr-2"
-          icon="pi pi-trash"
-        />
-    </div>
-
-  );
