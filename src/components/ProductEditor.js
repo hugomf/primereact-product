@@ -1,4 +1,4 @@
-import { DynamicTable } from './datatable/DynamicTable';
+import { DynamicTable } from './dynatable/DynamicTable';
 import { Button } from 'primereact/button';
 
 const ProductEditor = () => {
