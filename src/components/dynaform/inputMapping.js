@@ -36,7 +36,7 @@ export const inputMapping = {
     <div className="field">
       <span className="p-float-label">
         <Controller
-          name={key}
+          name={fieldSpec.field}
           control={control}
           rules={{ required: fieldSpec.required }}
           render={({ field, fieldState }) => (
@@ -192,7 +192,7 @@ export const inputMapping = {
     <div className="field">
       <span className="p-float-label">
         <Controller
-          name={key}
+          name={fieldSpec.field}
           control={control}
           rules={{ required: fieldSpec.required }}
           render={({ field, fieldState }) => 

@@ -1,30 +1,34 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { inputMapping } from './inputMapping';
 import { useForm } from 'react-hook-form';
-import { formSpec } from './FormSpec';
 import { Dialog } from 'primereact/dialog';
 import './DynamicForm.css';
 import { Button } from 'primereact/button';
 
-const DynamicForm = () => {
+const DynamicForm = (props) => {
 
-  const defaultValues = {
-    name: '',
-    email: '',
-    password: '',
-    remember: true,
-    message:'',
-    planet: 'earth',
-    country: null
-  }
+  // const defaultValues = {
+  //   name: '',
+  //   email: '',
+  //   password: '',
+  //   remember: true,
+  //   message:'',
+  //   planet: 'earth',
+  //   country: null
+  // }
 
   const [showMessage, setShowMessage] = useState(false);
-  const { control, formState: { errors }, handleSubmit, reset, register } = useForm({ defaultValues });
+  const { control, formState: { errors }, handleSubmit, reset, register } = useForm(props.formValues);
   const [formData, setFormData] = useState({});
 
   const dialogFooter = <div className="flex justify-content-center">
       <Button label="OK" className="p-button-text" autoFocus onClick={() => setShowMessage(false)} /></div>;
    
+  // effect runs when user state is updated
+  useEffect(() => {
+    // reset form with user data
+    reset(props.formValues);
+  }, [reset, props.formValues]);
 
   const onSubmit = data => {
     setFormData(data);
@@ -52,8 +56,8 @@ const DynamicForm = () => {
       <div className="card">
         <h5 className="text-center">Dyna Form</h5>
           <form onSubmit={handleSubmit(onSubmit)} className="p-fluid">
-            { Object.keys(formSpec).map(key => {
-                const field = formSpec[key];
+            { Object.keys(props.formSpec).map(key => {
+                const field = props.formSpec[key];
                 const input = inputMapping[field.type]
                   ? inputMapping[field.type](key, field, errors, control, register)
                   : inputMapping['text'](key, field, errors, control, register);

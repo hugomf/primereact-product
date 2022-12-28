@@ -6,11 +6,13 @@ import { Button } from "primereact/button";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { confirmDialog, ConfirmDialog } from 'primereact/confirmdialog';
 import { PrimeIcons } from 'primereact/api'
-//import { DynamicForm } from "./dynaform/DynamicForm";
-//import { Dialog } from "primereact/dialog";
+import { DynamicForm } from "./dynaform/DynamicForm";
+import { Dialog } from "primereact/dialog";
+import { formSpec } from './ProductFormSpec';
+
 
 // feature specific
-import { remove } from "../service/ProductService";
+import { remove, get } from "../service/ProductService";
 
 //const baseUrl = "https://api.instantwebtools.net/v1/passenger";
 
@@ -21,10 +23,13 @@ function MyTable() {
   const [sortField, setSortField] = useState('id');
   const [sortOrder, setSortOrder] = useState(1);
 
+  const [isProductFormVisible, showProductForm] = useState();
+  const [formValues, setFormValues] = useState({});
+
 
   const stylebtnDelete = {
     backgroundColor: 'rgb(195 46 46 / 85%)'
-};
+  };
 
 
   const { data, error, isError, isLoading, isFetching, refetch } = 
@@ -63,6 +68,20 @@ function MyTable() {
   //   return new Promise((resolve) => setTimeout(resolve, milliseconds));
   // }
 
+  const retrieveProduct = (rowData) => {
+    
+    get(rowData.id).then(data=> {
+      console.log("formData", data);
+      setFormValues(rowData);
+      showProductForm(true);
+    })
+
+  }
+
+  const onProductFormHide = (name) => {
+    showProductForm(false);
+  }
+
   const onDelete = (rowData) => {
     remove(rowData.id)
       .then(() => refetch());
@@ -86,6 +105,7 @@ function MyTable() {
         <Button 
           className="p-buttom-sm p-1 mr-2"
           icon={PrimeIcons.PENCIL}
+          onClick={(e) => retrieveProduct(rowData)}
         />
         <Button
           className='p-buttom-sm p-1 mr-2' style={stylebtnDelete}
@@ -127,10 +147,26 @@ function MyTable() {
     return <div>Error: {error.message}</div>;
   }
 
+ 
+
   // If the data has been successfully fetched, render the table
   return (
     <div>
+      
+      <Dialog header="Product" visible={isProductFormVisible} style={{ width: '50vw' }} 
+           onHide={() => onProductFormHide()} footer={() => {
+              return(
+                <div>
+                  <Button label="Cancel" icon="pi pi-times" onClick={() => onProductFormHide()} className="p-button-text" />
+                  <Button label="Save" icon="pi pi-check" onClick={() => onProductFormHide()} autoFocus />
+                </div>
+              );
+           }}>
+          <DynamicForm  formSpec={formSpec} formValues={formValues}  />
+      </Dialog>
+
       <ConfirmDialog  /> 
+      
       <DataTable
         paginator
         lazy
