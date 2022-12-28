@@ -1,12 +1,21 @@
 import React from "react";
 import "./index.css"
-
+import {QueryClient,QueryClientProvider } from 'react-query'
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import { HugoTable } from "./components/HugoTable"
 // import { Radio } from "./components/Radio"
-import { ProductEditor } from "./components/ProductEditor";
+import { MyTable } from "./components/MyTable";
 //import { Link, Outlet } from "react-router-dom";
 
+const queryClient = new QueryClient(
+  {
+    defaultOptions: {
+      queries: {
+        refetchOnWindowFocus: false,
+      },
+    },
+  }
+);
 
 export default function App() {
   return (
@@ -28,7 +37,9 @@ export default function App() {
     //     </Routes>
     //   </main>
     // </BrowserRouter>
-    <ProductEditor />
+    <QueryClientProvider client={queryClient}>
+      <MyTable />
+    </QueryClientProvider>
   );
 }
 

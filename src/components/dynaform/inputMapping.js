@@ -205,8 +205,8 @@ export const inputMapping = {
     </div>
   ),
 
-  button: (key, field, control) => (
-    <Button type="submit" label="Submit" className="mt-2" />
+  button: (key, fieldSpec,errors, control) => (
+    <Button type="submit" label={fieldSpec.label} onSubmit={control.onSubmit} className={fieldSpec.className} style={fieldSpec.style} />
   )
   
 };

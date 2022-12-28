@@ -54,6 +54,14 @@
     },
     submit: {
       label: 'Submit',
-      type: 'button'
+      type: 'button',
+      className: 'mt-2',
+      style: { width: '40%' }
+    },
+    cancel: {
+      label: 'Cancel',
+      type: 'button',
+      className: 'mt-2',
+      style: { width: '40%' }
     }
   };
