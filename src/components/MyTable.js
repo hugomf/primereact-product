@@ -5,6 +5,9 @@ import { useFetchData } from "../hooks/useFetchData";
 import { Button } from "primereact/button";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { confirmDialog, ConfirmDialog } from 'primereact/confirmdialog';
+import { PrimeIcons } from 'primereact/api'
+//import { DynamicForm } from "./dynaform/DynamicForm";
+//import { Dialog } from "primereact/dialog";
 
 // feature specific
 import { remove } from "../service/ProductService";
@@ -19,10 +22,12 @@ function MyTable() {
   const [sortOrder, setSortOrder] = useState(1);
 
 
+  const stylebtnDelete = {
+    backgroundColor: 'rgb(195 46 46 / 85%)'
+};
 
-  
-  
-  const { data, error, isError, isLoading, isFetching } = 
+
+  const { data, error, isError, isLoading, isFetching, refetch } = 
     useFetchData( first, rows, sortField, sortOrder);
 
 
@@ -43,14 +48,30 @@ function MyTable() {
   //   }
   // );
 
+  const headerTemplate = (
+    <div>
+        <Button 
+          className="mr-2"
+          icon="pi pi-plus"
+          label="Add Product"
+        />
+    </div>
+  );
+
+
+  // function sleep(milliseconds) {
+  //   return new Promise((resolve) => setTimeout(resolve, milliseconds));
+  // }
+
   const onDelete = (rowData) => {
-    console.log("removed:", rowData);
-    remove(rowData.id);
+    remove(rowData.id)
+      .then(() => refetch());
   }
 
   const onConfirm = (rowData) => {
     console.log("item to delete", rowData)
     confirmDialog({
+      header: "Delete Confirmation",
       message: "Are you sure you want to delete this row?",
       acceptLabel: "Absolutely",
       rejectLabel: "No",
@@ -59,18 +80,17 @@ function MyTable() {
 
   }
 
-
-
   const actionsTemplate = (rowData) => (
 
     <div>
         <Button 
-          className="p-button-rounded mr-2"
-          icon="pi pi-pencil"
+          className="p-buttom-sm p-1 mr-2"
+          icon={PrimeIcons.PENCIL}
         />
         <Button
-         className="p-button-rounded p-button-danger mr-2"
-         icon="pi pi-trash"
+          className='p-buttom-sm p-1 mr-2' style={stylebtnDelete}
+        // className="p-button-rounded p-button-danger mr-2"
+         icon={PrimeIcons.TRASH}
          onClick={(e) => onConfirm(rowData)}
         />
     </div>
@@ -80,13 +100,12 @@ function MyTable() {
   const columns = [
     { type: "text", field: "id", header: "ID", sortable: true, style: { width: '15%' }},
     { type: "text", field: "title", header: "title", sortable: true },
+    { type: "actions", body: (rowData) => actionsTemplate(rowData), header: "Actions" },
     { type: "text", field: "sku", header: "sku", sortable: true },
     { type: "text", field: "price.basePrice", header: "price", sortable: true },
     { type: "image", field: "imagePath", header: "image" },
-    { type: "actions", body: (rowData) => actionsTemplate(rowData), header: "Actions" },
-  ];
 
-  
+  ];
 
   const onPage = (e) => {
     setFirst(e.first);
@@ -115,6 +134,7 @@ function MyTable() {
       <DataTable
         paginator
         lazy
+        header={headerTemplate}
         currentPageReportTemplate="Showing {first} to {last} of {totalRecords}"
         paginatorTemplate="CurrentPageReport FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink RowsPerPageDropdown"
         value={data?.items}
@@ -142,7 +162,7 @@ function MyTable() {
               )
             } else if (column.type === "actions") {
               return (
-                <Column body={column.body} header="actions" />
+                <Column key={column.header} body={column.body} header="actions" />
               )
             } else {
               return (<></>)

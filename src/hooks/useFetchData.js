@@ -10,7 +10,7 @@ import { findAllByPageAndSort } from "../service/ProductService";
 
   export const useFetchData = (first, rows, sortField, sortOrder) => {
 
-    const { data, error, isError, isLoading, isFetching } = useQuery(
+    const { data, error, isError, isLoading, isFetching, refetch } = useQuery(
       ["tableData", { first, rows, sortField, sortOrder }],
       () => findAllByPageAndSort(first, rows, sortField, sortOrder),
       {
@@ -20,5 +20,5 @@ import { findAllByPageAndSort } from "../service/ProductService";
       }
     );
 
-    return { data, error, isError, isFetching, isLoading };
+    return { data, error, isError, isFetching, isLoading, refetch };
   }

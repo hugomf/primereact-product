@@ -25,5 +25,5 @@ export const getAll =  () => {
 
 export const findAllByPageAndSort = async (first, rows, sortField, sortOrder) => {
     const page = first / rows;
-    return  axios.get(`${baseUrl}?page=${page}&pageSize=${rows}&sortField=${sortField}&sortOrder=${sortOrder}`).then(res => res.data);
+    return  await axios.get(`${baseUrl}?page=${page}&pageSize=${rows}&sortField=${sortField}&sortOrder=${sortOrder}`).then(res => res.data);
 }
