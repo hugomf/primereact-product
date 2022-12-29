@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { DataTable } from "primereact/datatable";
 import { Column } from "primereact/column";
 import { useFetchData } from "../hooks/useFetchData";
@@ -6,13 +6,14 @@ import { Button } from "primereact/button";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { confirmDialog, ConfirmDialog } from 'primereact/confirmdialog';
 import { PrimeIcons } from 'primereact/api'
-import { DynamicForm } from "./dynaform/DynamicForm";
+import  DynamicForm  from "./dynaform/DynamicForm";
 import { Dialog } from "primereact/dialog";
 import { formSpec } from './ProductFormSpec';
-
-
 // feature specific
-import { remove, get } from "../service/ProductService";
+import { remove, get, update } from "../service/ProductService";
+
+
+
 
 //const baseUrl = "https://api.instantwebtools.net/v1/passenger";
 
@@ -25,7 +26,7 @@ function MyTable() {
 
   const [isProductFormVisible, showProductForm] = useState();
   const [formValues, setFormValues] = useState({});
-
+  const formRef = useRef();
 
   const stylebtnDelete = {
     backgroundColor: 'rgb(195 46 46 / 85%)'
@@ -68,27 +69,18 @@ function MyTable() {
   //   return new Promise((resolve) => setTimeout(resolve, milliseconds));
   // }
 
+  
+
   const retrieveProduct = (rowData) => {
     
     get(rowData.id).then(data=> {
-      console.log("formData", data);
       setFormValues(rowData);
       showProductForm(true);
     })
 
   }
 
-  const onProductFormHide = (name) => {
-    showProductForm(false);
-  }
-
-  const onDelete = (rowData) => {
-    remove(rowData.id)
-      .then(() => refetch());
-  }
-
   const onConfirm = (rowData) => {
-    console.log("item to delete", rowData)
     confirmDialog({
       header: "Delete Confirmation",
       message: "Are you sure you want to delete this row?",
@@ -137,6 +129,27 @@ function MyTable() {
     setSortOrder(e.sortOrder);
   }
 
+  const onProductFormHide = (name) => {
+    showProductForm(false);
+  }
+
+  const onPrepareSave =() => {
+    formRef.current.dispatchEvent(
+      new Event("submit", { bubbles: true, cancelable: true })
+    );
+  }
+
+  const onSave = (formData) =>  {
+   update(formData)
+    .then(() => refetch());
+   showProductForm(false);
+  }
+ 
+  const onDelete = (rowData) => {
+    remove(rowData.id)
+      .then(() => refetch());
+  }
+
   // If the data is still loading, display a loading message
   if (isLoading || isFetching) {
     return <div>Loading...</div>;
@@ -158,11 +171,11 @@ function MyTable() {
               return(
                 <div>
                   <Button label="Cancel" icon="pi pi-times" onClick={() => onProductFormHide()} className="p-button-text" />
-                  <Button label="Save" icon="pi pi-check" onClick={() => onProductFormHide()} autoFocus />
+                  <Button label="Save" icon="pi pi-check" onClick={() => onPrepareSave()} autoFocus />
                 </div>
               );
            }}>
-          <DynamicForm  formSpec={formSpec} formValues={formValues}  />
+          <DynamicForm ref={formRef} formSpec={formSpec} formValues={formValues} onSubmit={onSave} />
       </Dialog>
 
       <ConfirmDialog  /> 

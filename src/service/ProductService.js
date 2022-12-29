@@ -8,7 +8,7 @@ export const create = (product) => {
 }
 
 export const update = (product) => {
-    return  axios.put(`${this.baseUrl}/${product.id}`, product).then(res => res.data);
+    return  axios.put(`${baseUrl}/${product.id}`, product).then(res => res.data);
 }
 
 export const remove = (id) => {

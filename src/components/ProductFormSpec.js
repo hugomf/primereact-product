@@ -8,7 +8,7 @@
     },
     description: {
       label: 'Description*',
-      field: 'title',
+      field: 'description',
       type: 'textarea',
       required: 'Description is required.',
       defaulValue: ''
