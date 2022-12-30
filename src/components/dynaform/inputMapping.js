@@ -11,6 +11,7 @@ import { Dropdown } from 'primereact/dropdown';
 
 import { Button } from 'primereact/button';
 import { InputTextarea } from 'primereact/inputtextarea';
+import { Rating } from 'primereact/rating';
 
 const passwordHeader = <h6>Pick a password</h6>;
 const passwordFooter = (
@@ -202,6 +203,35 @@ export const inputMapping = {
         <label htmlFor={key} className={classNames({ 'p-error': errors[key] })}>{fieldSpec.label}</label>
       </span>
       {getFormErrorMessage(key, errors)}
+    </div>
+  ),
+
+  hidden: (key, fieldSpec, errors, control) => (
+    <div className="field">
+      <span className="p-float-label">
+        <Controller
+          name={fieldSpec.field}
+          control={control}
+          rules={{ required: fieldSpec.required }}
+          render={({ field, fieldState }) => (
+            <input type="hidden" id={field.name} {...field} />
+        )} />
+      </span>
+    </div>
+  ),
+
+  rating: (key, fieldSpec, errors, control) => (
+    <div className="field">
+      <span className="p-float-label form-group -mt-3">
+        <span className="text-sm ml-2">{fieldSpec.label}</span>
+        <Controller
+          name={fieldSpec.field}
+          control={control}
+          render={({ field, fieldState }) => (
+            <Rating id={field.name} {...field}
+                stars={5} cancel={false} className="ml-1 mt-1" />
+        )} />
+      </span>
     </div>
   ),
 

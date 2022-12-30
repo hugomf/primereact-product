@@ -31,4 +31,18 @@
       type: 'text',
       required: false,
     },
+    rating: {
+      label: 'Reviews',
+      field: 'rating',
+      type: 'rating',
+      required: 'Rating is required.',
+      defaulValue: '0'
+    },
+    save: {
+      label: 'Save*',
+      field: 'save',
+      type: 'hidden',
+      required: false,
+      defaulValue: 'add'
+    },
   };

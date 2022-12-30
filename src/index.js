@@ -5,7 +5,7 @@ import App from "./App.js";
 import reportWebVitals from './reportWebVitals';
 
 
-import 'primereact/resources/themes/md-light-indigo/theme.css';
+import 'primereact/resources/themes/saga-orange/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css';

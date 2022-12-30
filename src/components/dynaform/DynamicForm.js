@@ -34,22 +34,26 @@ export default React.forwardRef((props,ref) => {
 
 
   return (
+    <div className="form-demo">
       <div className="flex justify-content-center">
-        <form ref={ref} onSubmit={handleSubmit(onSubmit)} className="p-fluid">
-          { Object.keys(props.formSpec).map(key => {
-              const field = props.formSpec[key];
-              const input = inputMapping[field.type]
-                ? inputMapping[field.type](key, field, errors, control, register)
-                : inputMapping['text'](key, field, errors, control, register);
-              return (
-                <div key={key}>
-                  {input}
-                </div>
-              );
-            })
-          }
-        </form>
+        <div className="card">
+          <form ref={ref} onSubmit={handleSubmit(onSubmit)} className="p-fluid">
+            { Object.keys(props.formSpec).map(key => {
+                const field = props.formSpec[key];
+                const input = inputMapping[field.type]
+                  ? inputMapping[field.type](key, field, errors, control, register)
+                  : inputMapping['text'](key, field, errors, control, register);
+                return (
+                  <div key={key}>
+                    {input}
+                  </div>
+                );
+              })
+            }
+          </form>
+        </div>
       </div>
+    </div>
   );
 
 });

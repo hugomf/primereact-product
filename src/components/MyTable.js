@@ -8,12 +8,12 @@ import { confirmDialog, ConfirmDialog } from 'primereact/confirmdialog';
 import { PrimeIcons } from 'primereact/api'
 import  DynamicForm  from "./dynaform/DynamicForm";
 import { Dialog } from "primereact/dialog";
+import { Toast } from 'primereact/toast';
 import { formSpec } from './ProductFormSpec';
+import { Rating } from 'primereact/rating';
+
 // feature specific
-import { remove, get, update } from "../service/ProductService";
-
-
-
+import { remove, get, update, create } from "../service/ProductService";
 
 //const baseUrl = "https://api.instantwebtools.net/v1/passenger";
 
@@ -27,6 +27,7 @@ function MyTable() {
   const [isProductFormVisible, showProductForm] = useState();
   const [formValues, setFormValues] = useState({});
   const formRef = useRef();
+  const toast = useRef(null);
 
   const stylebtnDelete = {
     backgroundColor: 'rgb(195 46 46 / 85%)'
@@ -36,60 +37,17 @@ function MyTable() {
   const { data, error, isError, isLoading, isFetching, refetch } = 
     useFetchData( first, rows, sortField, sortOrder);
 
-
-
-  // const getData = async (baseUrl, first, rows, sortField, sortOrder) => {
-  //   const page = first / rows;
-  //   const resp = await axios.get(`${baseUrl}?page=${page}&pageSize=${rows}&sortField=${sortField}&sortOrder=${sortOrder}`);
-  //   return resp.data;
-  // };
-  // // Fetch the data for the current page using react-query
-  // const { data, error, isError, isLoading, isFetching } = useQuery(
-  //   ["tableData", { baseUrl, first, rows, sortField, sortOrder }],
-  //   () => getData(baseUrl, first, rows, sortField, sortOrder),
-  //   {
-  //     keepPreviousData: true,
-  //     staleTime: 5000,
-  //     refetchOnWindowFocus: false
-  //   }
-  // );
-
+  
   const headerTemplate = (
     <div>
         <Button 
           className="mr-2"
           icon="pi pi-plus"
           label="Add Product"
+          onClick={(e) => onFetchProduct({})}
         />
     </div>
   );
-
-
-  // function sleep(milliseconds) {
-  //   return new Promise((resolve) => setTimeout(resolve, milliseconds));
-  // }
-
-  
-
-  const retrieveProduct = (rowData) => {
-    
-    get(rowData.id).then(data=> {
-      setFormValues(rowData);
-      showProductForm(true);
-    })
-
-  }
-
-  const onConfirm = (rowData) => {
-    confirmDialog({
-      header: "Delete Confirmation",
-      message: "Are you sure you want to delete this row?",
-      acceptLabel: "Absolutely",
-      rejectLabel: "No",
-      accept: () => onDelete(rowData),
-    });
-
-  }
 
   const actionsTemplate = (rowData) => (
 
@@ -97,7 +55,7 @@ function MyTable() {
         <Button 
           className="p-buttom-sm p-1 mr-2"
           icon={PrimeIcons.PENCIL}
-          onClick={(e) => retrieveProduct(rowData)}
+          onClick={(e) => onFetchProduct(rowData)}
         />
         <Button
           className='p-buttom-sm p-1 mr-2' style={stylebtnDelete}
@@ -112,12 +70,32 @@ function MyTable() {
   const columns = [
     { type: "text", field: "id", header: "ID", sortable: true, style: { width: '15%' }},
     { type: "text", field: "title", header: "title", sortable: true },
-    { type: "actions", body: (rowData) => actionsTemplate(rowData), header: "Actions" },
     { type: "text", field: "sku", header: "sku", sortable: true },
     { type: "text", field: "price.basePrice", header: "price", sortable: true },
+    { type: "rating", field: "rating", header: "rating", sortable: true },
     { type: "image", field: "imagePath", header: "image" },
-
+    { type: "actions", body: (rowData) => actionsTemplate(rowData), header: "Actions" },
   ];
+
+  const showError = (error) => {
+    toast.current.show({severity:'error', summary: error.name, detail: error.message, life: 3000});
+}
+
+  const onFetchProduct = (rowData) => {
+    if (rowData && 'id' in rowData) {
+      get(rowData.id).then(data=> {
+        rowData.save="update";
+        setFormValues(rowData);
+        showProductForm(true);
+      })
+      .catch((error) => showError(error));
+    } else {
+        setFormValues({
+          save: "insert"
+      }); //set default values (from FieldSpec)
+      showProductForm(true);
+    }
+  }
 
   const onPage = (e) => {
     setFirst(e.first);
@@ -140,14 +118,35 @@ function MyTable() {
   }
 
   const onSave = (formData) =>  {
-   update(formData)
-    .then(() => refetch());
-   showProductForm(false);
+
+    if (formData.save === "insert") {
+      create(formData)
+      .then(() => {refetch(); showProductForm(false);})
+      .catch((error) => showError(error));
+
+    } else {
+      update(formData)
+      .then(() => {refetch(); showProductForm(false);})
+      .catch((error) => showError(error));
+    }
+   
+  }
+
+  const onConfirm = (rowData) => {
+    confirmDialog({
+      header: "Delete Confirmation",
+      message: "Are you sure you want to delete this row?",
+      acceptLabel: "Absolutely",
+      rejectLabel: "No",
+      accept: () => onDelete(rowData),
+    });
+
   }
  
   const onDelete = (rowData) => {
     remove(rowData.id)
-      .then(() => refetch());
+      .then(() => refetch())
+      .catch((error) => showError(error));
   }
 
   // If the data is still loading, display a loading message
@@ -160,13 +159,12 @@ function MyTable() {
     return <div>Error: {error.message}</div>;
   }
 
- 
-
   // If the data has been successfully fetched, render the table
   return (
     <div>
       
-      <Dialog header="Product" visible={isProductFormVisible} style={{ width: '50vw' }} 
+      <Toast ref={toast} />
+      <Dialog header="Product" visible={isProductFormVisible} style={{ width: '30vw' }} 
            onHide={() => onProductFormHide()} footer={() => {
               return(
                 <div>
@@ -196,7 +194,6 @@ function MyTable() {
         onSort={onSort}
         rowsPerPageOptions={[10, 20, 30, 50]} >
 
-
         {columns.map(function(column, index) {
             if (column.type === "text") {
               return (
@@ -208,6 +205,12 @@ function MyTable() {
                   <LazyLoadImage
                     src={data[column.field]}  
                     width={30} />)} header={column.header}  style={column.style} /> 
+              )
+            } else if (column.type === "rating") {
+              return (
+                <Column key={column.header} body={(data, props) => (
+                  <Rating value={data[column.field]}
+                    stars={5} cancel={false} />)} header={column.header}  style={column.style} /> 
               )
             } else if (column.type === "actions") {
               return (
