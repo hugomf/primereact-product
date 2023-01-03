@@ -1,5 +1,4 @@
 import { useQuery } from "react-query";
-import { findAllByPageAndSort } from "../service/ProductService";
 
 
 // const getData = async (first, rows, sortField, sortOrder) => {
@@ -8,11 +7,11 @@ import { findAllByPageAndSort } from "../service/ProductService";
 //   return resp.data;
 // };
 
-  export const useFetchData = (first, rows, sortField, sortOrder) => {
+  export const useFetchData = (fetchService, first, rows, sortField, sortOrder) => {
 
     const { data, error, isError, isLoading, isFetching, refetch } = useQuery(
       ["tableData", { first, rows, sortField, sortOrder }],
-      () => findAllByPageAndSort(first, rows, sortField, sortOrder),
+      () => fetchService(first, rows, sortField, sortOrder),
       {
         keepPreviousData: true,
         staleTime: 5000,

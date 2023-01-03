@@ -9,9 +9,9 @@
     description: {
       label: 'Description*',
       field: 'description',
-      type: 'textarea',
-      required: 'Description is required.',
-      defaulValue: ''
+      type: 'text',
+      required: true,
+      defaulValue: 'Description es requerido.'
     },
     sku: {
       label: 'SKU',

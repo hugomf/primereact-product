@@ -9,15 +9,15 @@ import { PrimeIcons } from 'primereact/api'
 import  DynamicForm  from "./dynaform/DynamicForm";
 import { Dialog } from "primereact/dialog";
 import { Toast } from 'primereact/toast';
-import { formSpec } from './ProductFormSpec';
+import { formSpec } from './UserFormSpec';
 import { Rating } from 'primereact/rating';
-
+import { ProgressSpinner } from 'primereact/progressspinner';
 // feature specific
-import { remove, get, update, create } from "../service/ProductService";
+import { remove, get, update, create, findAllByPageAndSort } from "../service/UserService";
 
 //const baseUrl = "https://api.instantwebtools.net/v1/passenger";
 
-function MyTable() {
+function User() {
 
   const [first, setFirst] = useState(0);
   const [rows, setRows] = useState(5);
@@ -35,7 +35,7 @@ function MyTable() {
 
 
   const { data, error, isError, isLoading, isFetching, refetch } = 
-    useFetchData( first, rows, sortField, sortOrder);
+    useFetchData( findAllByPageAndSort, first, rows, sortField, sortOrder);
 
   
   const headerTemplate = (
@@ -43,8 +43,8 @@ function MyTable() {
         <Button 
           className="mr-2"
           icon="pi pi-plus"
-          label="Add Product"
-          onClick={(e) => onFetchProduct({})}
+          label="Add User"
+          onClick={(e) => onFetch({})}
         />
     </div>
   );
@@ -55,7 +55,7 @@ function MyTable() {
         <Button 
           className="p-buttom-sm p-1 mr-2"
           icon={PrimeIcons.PENCIL}
-          onClick={(e) => onFetchProduct(rowData)}
+          onClick={(e) => onFetch(rowData)}
         />
         <Button
           className='p-buttom-sm p-1 mr-2' style={stylebtnDelete}
@@ -69,11 +69,11 @@ function MyTable() {
 
   const columns = [
     { type: "text", field: "id", header: "ID", sortable: true, style: { width: '15%' }},
-    { type: "text", field: "title", header: "title", sortable: true },
-    { type: "text", field: "sku", header: "sku", sortable: true },
-    { type: "text", field: "price.basePrice", header: "price", sortable: true },
-    { type: "rating", field: "rating", header: "rating", sortable: true },
-    { type: "image", field: "imagePath", header: "image" },
+    { type: "text", field: "userName", header: "User Name", sortable: true },
+    { type: "text", field: "firstName", header: "First Name", sortable: true },
+    { type: "text", field: "lastName", header: "Last Name", sortable: true },
+    { type: "text", field: "email", header: "E-Mail", sortable: true },
+    { type: "text", field: "country", header: "Country", sortable: true },
     { type: "actions", body: (rowData) => actionsTemplate(rowData), header: "Actions" },
   ];
 
@@ -81,7 +81,7 @@ function MyTable() {
     toast.current.show({severity:'error', summary: error.name, detail: error.message, life: 3000});
 }
 
-  const onFetchProduct = (rowData) => {
+  const onFetch = (rowData) => {
     if (rowData && 'id' in rowData) {
       get(rowData.id).then(data=> {
         rowData.save="update";
@@ -151,7 +151,13 @@ function MyTable() {
 
   // If the data is still loading, display a loading message
   if (isLoading || isFetching) {
-    return <div>Loading...</div>;
+    return (
+      <div>
+        <h6>Loading Data...</h6>
+        <ProgressSpinner style={{width: '30px', height: '30px'}} 
+          strokeWidth="8" fill="var(--surface-ground)" animationDuration="1s"/>
+      </div>
+    );
   }
 
   // If there was an error fetching the data, display an error message
@@ -164,7 +170,7 @@ function MyTable() {
     <div>
       
       <Toast ref={toast} />
-      <Dialog header="Product" visible={isProductFormVisible} style={{ width: '30vw' }} 
+      <Dialog header="User" visible={isProductFormVisible} style={{ width: '30vw' }} 
            onHide={() => onProductFormHide()} footer={() => {
               return(
                 <div>
@@ -184,10 +190,10 @@ function MyTable() {
         header={headerTemplate}
         currentPageReportTemplate="Showing {first} to {last} of {totalRecords}"
         paginatorTemplate="CurrentPageReport FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink RowsPerPageDropdown"
-        value={data?.items}
+        value={data?.content}
         first={first}
         rows={rows}
-        totalRecords={data?.totalRecords}
+        totalRecords={data?.totalElements}
         sortField={sortField}
         sortOrder={sortOrder}
         onPage={onPage}
@@ -204,7 +210,7 @@ function MyTable() {
                 <Column key={column.header} body={(data, props) => (
                   <LazyLoadImage
                     src={data[column.field]}  
-                    width={30} />)} header={column.header}  style={column.style} /> 
+                    width={30} height={30} />)} header={column.header}  style={column.style} /> 
               )
             } else if (column.type === "rating") {
               return (
@@ -226,4 +232,4 @@ function MyTable() {
   );
 }
 
-export { MyTable };
+export { User };

@@ -1,10 +1,19 @@
 import React from "react";
 import "./index.css"
 import {QueryClient,QueryClientProvider } from 'react-query'
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Dashboard } from "./components/Dashboard";
+import { Comment } from "./components/Comment";
+import { Analytics } from "./components/Analytics";
+import { Sidebar } from "./components/Sidebar";
+import './Content.css';
+
+import { Product } from "./components/Product";
+import { User } from "./components/User";
+
 // import { HugoTable } from "./components/HugoTable"
 // import { Radio } from "./components/Radio"
-import { MyTable } from "./components/MyTable";
+//import { MyTable } from "./components/MyTable";
 //import { Link, Outlet } from "react-router-dom";
 
 const queryClient = new QueryClient(
@@ -19,26 +28,19 @@ const queryClient = new QueryClient(
 
 export default function App() {
   return (
-    // <BrowserRouter>
-    //   <main>
-    //     <nav>
-    //       <ul>
-    //         <li><a href="/">Home</a></li>
-    //         <li><a href="/table">Table</a></li>
-    //         <li><a href="/form">Form</a></li>
-    //         <li><a href="/dynaform">Form</a></li>
-    //       </ul>
-    //     </nav>
-    //     <Routes>
-    //     <Route exact path="/" element={<Home />} />
-    //       <Route exact path="/table" element={<HugoTable />} />
-    //       <Route exact path="/form" element={<Radio />} />
-    //       <Route exact path="/dynaform" element={<DynamicForm formData={formData} onSubmit="" />} />
-    //     </Routes>
-    //   </main>
-    // </BrowserRouter>
     <QueryClientProvider client={queryClient}>
-      <MyTable />
+      <BrowserRouter>
+        <Sidebar>
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/user" element={<User />} />
+            <Route path="/comment" element={<Comment />} />
+            <Route path="/analytics" element={<Analytics />} />
+            <Route path="/productList" element={<Product />} />
+          </Routes>
+        </Sidebar>
+      </BrowserRouter>
     </QueryClientProvider>
   );
 }
