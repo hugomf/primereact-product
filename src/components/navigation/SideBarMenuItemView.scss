@@ -1,0 +1,83 @@
+@import "./commons.scss";
+
+.SideBarMenuItemView {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+
+    .link {
+        
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+
+        .ItemContent {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            overflow: hidden;
+            width: 100%;
+            white-space: nowrap;
+            @include transition(width);
+
+            &.collapsed {
+                width: 24px;
+            }
+
+            .icon {
+                width: 24px;
+                height: 24px;
+            }
+
+            .label {
+                font-weight: 500;
+                margin-left: 10px;
+                overflow: hidden;
+            }
+        }
+
+        &:hover {
+            background-color: #373839;
+            color:white
+        }
+    
+        &:hover {
+            & + .tooltip {
+                display: inline-block;
+                animation-duration: 0.5s;
+                animation-name: tooltip;
+            }
+        }
+
+        .active {
+            background-color: darkslategrey;
+            color: #fff;
+        }
+    }
+
+    .tooltip {
+        font-size: small;
+        position: absolute;
+        background-color: #373839;
+        left: 58px;
+        padding: 10px;
+        border-radius: 4px;
+        text-transform: capitalize;
+        display: none;
+        z-index: 5;
+    }
+}
+
+@keyframes tooltip {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }    
+}
+

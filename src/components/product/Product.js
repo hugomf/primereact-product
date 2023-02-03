@@ -1,23 +1,25 @@
 import React, { useRef, useState } from "react";
 import { DataTable } from "primereact/datatable";
 import { Column } from "primereact/column";
-import { useFetchData } from "../hooks/useFetchData";
+import { useFetchData } from "../../hooks/useFetchData";
 import { Button } from "primereact/button";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { confirmDialog, ConfirmDialog } from 'primereact/confirmdialog';
 import { PrimeIcons } from 'primereact/api'
-import  DynamicForm  from "./dynaform/DynamicForm";
 import { Dialog } from "primereact/dialog";
 import { Toast } from 'primereact/toast';
-import { formSpec } from './UserFormSpec';
 import { Rating } from 'primereact/rating';
 import { ProgressSpinner } from 'primereact/progressspinner';
+
+import  DynamicForm  from "../dynaform/DynamicForm";
+import { formSpec } from './ProductFormSpec';
+
 // feature specific
-import { remove, get, update, create, findAllByPageAndSort } from "../service/UserService";
+import { remove, get, update, create, findAllByPageAndSort } from "../../service/ProductService";
 
 //const baseUrl = "https://api.instantwebtools.net/v1/passenger";
 
-function User() {
+function Product() {
 
   const [first, setFirst] = useState(0);
   const [rows, setRows] = useState(5);
@@ -43,8 +45,8 @@ function User() {
         <Button 
           className="mr-2"
           icon="pi pi-plus"
-          label="Add User"
-          onClick={(e) => onFetch({})}
+          label="Add Product"
+          onClick={(e) => onFetchProduct({})}
         />
     </div>
   );
@@ -55,7 +57,7 @@ function User() {
         <Button 
           className="p-buttom-sm p-1 mr-2"
           icon={PrimeIcons.PENCIL}
-          onClick={(e) => onFetch(rowData)}
+          onClick={(e) => onFetchProduct(rowData)}
         />
         <Button
           className='p-buttom-sm p-1 mr-2' style={stylebtnDelete}
@@ -69,11 +71,11 @@ function User() {
 
   const columns = [
     { type: "text", field: "id", header: "ID", sortable: true, style: { width: '15%' }},
-    { type: "text", field: "userName", header: "User Name", sortable: true },
-    { type: "text", field: "firstName", header: "First Name", sortable: true },
-    { type: "text", field: "lastName", header: "Last Name", sortable: true },
-    { type: "text", field: "email", header: "E-Mail", sortable: true },
-    { type: "text", field: "country", header: "Country", sortable: true },
+    { type: "text", field: "title", header: "title", sortable: true },
+    { type: "text", field: "sku", header: "sku", sortable: true },
+    { type: "text", field: "price.basePrice", header: "price", sortable: true },
+    { type: "rating", field: "rating", header: "rating", sortable: true },
+    { type: "image", field: "imagePath", header: "image" },
     { type: "actions", body: (rowData) => actionsTemplate(rowData), header: "Actions" },
   ];
 
@@ -81,7 +83,7 @@ function User() {
     toast.current.show({severity:'error', summary: error.name, detail: error.message, life: 3000});
 }
 
-  const onFetch = (rowData) => {
+  const onFetchProduct = (rowData) => {
     if (rowData && 'id' in rowData) {
       get(rowData.id).then(data=> {
         rowData.save="update";
@@ -170,7 +172,7 @@ function User() {
     <div>
       
       <Toast ref={toast} />
-      <Dialog header="User" visible={isProductFormVisible} style={{ width: '30vw' }} 
+      <Dialog header="Product" visible={isProductFormVisible} style={{ width: '30vw' }} 
            onHide={() => onProductFormHide()} footer={() => {
               return(
                 <div>
@@ -190,10 +192,10 @@ function User() {
         header={headerTemplate}
         currentPageReportTemplate="Showing {first} to {last} of {totalRecords}"
         paginatorTemplate="CurrentPageReport FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink RowsPerPageDropdown"
-        value={data?.content}
+        value={data?.items}
         first={first}
         rows={rows}
-        totalRecords={data?.totalElements}
+        totalRecords={data?.totalRecords}
         sortField={sortField}
         sortOrder={sortOrder}
         onPage={onPage}
@@ -232,4 +234,4 @@ function User() {
   );
 }
 
-export { User };
+export { Product };
