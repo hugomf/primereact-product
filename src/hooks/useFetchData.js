@@ -7,10 +7,10 @@ import { useQuery } from "react-query";
 //   return resp.data;
 // };
 
-  export const useFetchData = (fetchService, first, rows, sortField, sortOrder) => {
+  export const useFetchData = (location, fetchService, first, rows, sortField, sortOrder) => {
 
     const { data, error, isError, isLoading, isFetching, refetch } = useQuery(
-      ["tableData", { first, rows, sortField, sortOrder }],
+      ["tableData", location.key, { first, rows, sortField, sortOrder }],
       () => fetchService(first, rows, sortField, sortOrder),
       {
         keepPreviousData: true,

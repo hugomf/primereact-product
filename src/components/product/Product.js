@@ -11,12 +11,14 @@ import { Toast } from 'primereact/toast';
 import { Rating } from 'primereact/rating';
 import { ProgressSpinner } from 'primereact/progressspinner';
 
+
 import  DynamicForm  from "../dynaform/DynamicForm";
 import { formSpec } from './ProductFormSpec';
 
 // feature specific
 import { remove, get, update, create, findAllByPageAndSort } from "../../service/ProductService";
 
+import { useLocation } from 'react-router-dom';
 //const baseUrl = "https://api.instantwebtools.net/v1/passenger";
 
 function Product() {
@@ -35,9 +37,10 @@ function Product() {
     backgroundColor: 'rgb(195 46 46 / 85%)'
   };
 
+  const location = useLocation(); // trick to refresh component in router change
 
   const { data, error, isError, isLoading, isFetching, refetch } = 
-    useFetchData( findAllByPageAndSort, first, rows, sortField, sortOrder);
+    useFetchData( location, findAllByPageAndSort, first, rows, sortField, sortOrder);
 
   
   const headerTemplate = (

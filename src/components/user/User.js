@@ -15,6 +15,9 @@ import { ProgressSpinner } from 'primereact/progressspinner';
 // feature specific
 import { remove, get, update, create, findAllByPageAndSort } from "../../service/UserService";
 
+
+import { useLocation } from 'react-router-dom';
+
 //const baseUrl = "https://api.instantwebtools.net/v1/passenger";
 
 function User() {
@@ -33,9 +36,10 @@ function User() {
     backgroundColor: 'rgb(195 46 46 / 85%)'
   };
 
+  const location = useLocation(); // trick to refresh component in router change
 
   const { data, error, isError, isLoading, isFetching, refetch } = 
-    useFetchData( findAllByPageAndSort, first, rows, sortField, sortOrder);
+    useFetchData( location, findAllByPageAndSort, first, rows, sortField, sortOrder);
 
   
   const headerTemplate = (
