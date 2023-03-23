@@ -1,4 +1,4 @@
-# Primereact Datatable  ![React v18](https://img.shields.io/badge/react-v18-blue) ![Prime React](https://img.shields.io/badge/primereact-v9.2.1-blue)
+# Primereact Datatable  ![React v18](https://img.shields.io/badge/react-v18-blue?logo=react) ![Prime React](https://img.shields.io/badge/primereact-v9.2.1-blue)
 
 with Pagination and Sorting and Dynamic form generation
 
