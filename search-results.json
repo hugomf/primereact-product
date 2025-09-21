@@ -1,0 +1,3127 @@
+{
+	"products": [
+		{
+			"description": "IN NATURA BARRA C/3 UNID IN NATURA",
+			"gtin": 7898169240220,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2017-06-14T15:10:56.000-03:00",
+			"updated_at": "2023-03-16T01:46:31.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898169240220,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/252294D4803405E597BF495F14FDD75C.png",
+			"brand": {
+				"name": "IN NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			}
+		},
+		{
+			"description": "NATURA HUMOR 2 PERFUME 75ML BY NATURA",
+			"gtin": 784190909342,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/784190909342",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2016-07-04T04:17:03.000-03:00",
+			"updated_at": "2023-06-07T15:57:23.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 784190909342,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/A5AABECEF8A76AAA777429FF2CE098C8.png",
+			"brand": {
+				"name": "NATURA",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura"
+			}
+		},
+		{
+			"description": "ASPARGOBRANCO IN NATURA",
+			"gtin": 7898935886218,
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2021-04-15T06:27:26.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898935886218,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/D8FC96A11DAD54A01D87EDBAE57D8489.png",
+			"ncm": {
+				"code": "20056000",
+				"description": "Aspargos",
+				"full_description": "Preparações de produtos hortícolas, de frutas ou de outras partes de plantas - Outros produtos hortícolas preparados ou conservados, exceto em vinagre ou em ácido acético, não congelados, com exceção dos produtos da posição 20.06. - Aspargos",
+				"ex": null
+			}
+		},
+		{
+			"description": "COGUMELO IN NATURA",
+			"gtin": 7898280550017,
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2016-01-19T14:09:41.000-02:00",
+			"updated_at": "2023-01-13T03:30:32.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898280550017,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/8D3F1F0245DCAFE54984130541D689EE.png",
+			"ncm": {
+				"code": "07095900",
+				"description": "Outros",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Outros produtos hortícolas, frescos ou refrigerados - Cogumelos e trufas: - Outros",
+				"ex": null
+			}
+		},
+		{
+			"description": "COGUMELO IN NATURA",
+			"gtin": 7898938378123,
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2016-01-19T14:09:41.000-02:00",
+			"updated_at": "2022-11-21T23:00:33.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898938378123,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/EC866BA84766217D772D39AA1ED22DD8.png",
+			"ncm": {
+				"code": "07095900",
+				"description": "Outros",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Outros produtos hortícolas, frescos ou refrigerados - Cogumelos e trufas: - Outros",
+				"ex": null
+			}
+		},
+		{
+			"description": "COGUMELO IN NATURA",
+			"gtin": 7897765609004,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7897765609004",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2016-01-19T14:09:40.000-02:00",
+			"updated_at": "2023-01-19T16:44:36.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7897765609004,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/820B3565F9920E67DA10D333E1EB9633.png",
+			"ncm": {
+				"code": "07095100",
+				"description": "Cogumelos do gênero Agaricus",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Outros produtos hortícolas, frescos ou refrigerados - Cogumelos e trufas: - Cogumelos do gênero Agaricus",
+				"ex": null
+			}
+		},
+		{
+			"description": "COGUMELO IN NATURA",
+			"gtin": 7898939962048,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7898939962048",
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2016-01-19T14:09:41.000-02:00",
+			"updated_at": "2023-01-10T07:58:50.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898939962048,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/9DFD4C90DEE9058C9BD9196714072CE9.png",
+			"ncm": {
+				"code": "07095100",
+				"description": "Cogumelos do gênero Agaricus",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Outros produtos hortícolas, frescos ou refrigerados - Cogumelos e trufas: - Cogumelos do gênero Agaricus",
+				"ex": null
+			}
+		},
+		{
+			"description": "COGUMELO IN NATURA",
+			"gtin": 7892616131970,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7892616131970",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2023-01-12T12:04:30.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7892616131970,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/56E0A2EBEC81C81F00B74402F857AAD0.png",
+			"ncm": {
+				"code": "07095900",
+				"description": "Outros",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Outros produtos hortícolas, frescos ou refrigerados - Cogumelos e trufas: - Outros",
+				"ex": null
+			}
+		},
+		{
+			"description": "COGUMELO IN NATURA",
+			"gtin": 7898150481021,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2016-01-19T14:09:41.000-02:00",
+			"updated_at": "2023-03-15T00:46:54.000-03:00",
+			"release_date": null,
+			"price": "$2.02 to $2.82",
+			"avg_price": 2.42,
+			"max_price": 2.82,
+			"min_price": 2.02,
+			"gtins": [
+				{
+					"gtin": 7898150481021,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/9E048E633209BA23E8E2D3AEDC61A980.png",
+			"ncm": {
+				"code": "07095900",
+				"description": "Outros",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Outros produtos hortícolas, frescos ou refrigerados - Cogumelos e trufas: - Outros",
+				"ex": null
+			}
+		},
+		{
+			"description": "RCULA IN NATURA",
+			"gtin": 7898267250435,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2020-08-14T21:49:08.000-03:00",
+			"updated_at": "2023-03-15T01:37:11.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": 0.7150000000000001,
+			"max_price": 0.9,
+			"min_price": 0.53,
+			"gtins": [
+				{
+					"gtin": 7898267250435,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/15DBC1C8913278B5E9D5A649B7D1FDA0.png"
+		},
+		{
+			"description": "BERTALHA IN NATURA",
+			"gtin": 7898267250046,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2020-10-14T16:18:08.000-03:00",
+			"updated_at": "2023-04-06T17:33:34.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": 0.73,
+			"max_price": 0.73,
+			"min_price": 0.73,
+			"gtins": [
+				{
+					"gtin": 7898267250046,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/15DBC1C8913278B5B64175095249609A.png"
+		},
+		{
+			"description": "CHICORIA IN NATURA",
+			"gtin": 7898267250107,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2020-10-14T16:18:08.000-03:00",
+			"updated_at": "2023-03-15T01:37:12.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": 0.5,
+			"max_price": 0.53,
+			"min_price": 0.47,
+			"gtins": [
+				{
+					"gtin": 7898267250107,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/15DBC1C8913278B55E99D1B3EA15CB39.png"
+		},
+		{
+			"description": "FRAMBOESA IN NATURA",
+			"gtin": 7898348391392,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2022-04-20T15:17:16.000-03:00",
+			"updated_at": "2022-06-30T12:13:44.000-03:00",
+			"release_date": null,
+			"price": "$4.95",
+			"avg_price": 4.95,
+			"max_price": 4.95,
+			"min_price": 4.95,
+			"gtins": [
+				{
+					"gtin": 7898348391392,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/D89063A524B901D4CE2D9AB1BA2AF5B5.png",
+			"ncm": {
+				"code": "08021200",
+				"description": "Sem casca",
+				"full_description": "Frutas; cascas de cítricos e de melões - Outras frutas de casca rija, frescas ou secas, mesmo sem casca ou peladas - Amêndoas: - Sem casca",
+				"ex": null
+			}
+		},
+		{
+			"description": "ABOBRINHA IN NATURA",
+			"gtin": 7896404201272,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2022-01-30T07:11:29.000-03:00",
+			"updated_at": "2023-03-16T00:52:30.000-03:00",
+			"release_date": null,
+			"price": "$2.35 to $2.66",
+			"avg_price": 2.505,
+			"max_price": 2.66,
+			"min_price": 2.35,
+			"gtins": [
+				{
+					"gtin": 7896404201272,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/F717C228DD967906A7B5F77D37EA6ABB.png"
+		},
+		{
+			"description": "BETERRABA IN NATURA",
+			"gtin": 7896404201357,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2021-10-13T02:51:58.000-03:00",
+			"updated_at": "2023-03-16T00:52:31.000-03:00",
+			"release_date": null,
+			"price": "$1.98 to $2.56",
+			"avg_price": 2.27,
+			"max_price": 2.56,
+			"min_price": 1.98,
+			"gtins": [
+				{
+					"gtin": 7896404201357,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/F717C228DD967906215D514FC39CEE71.png"
+		},
+		{
+			"description": "AIPIM IN NATURA",
+			"gtin": 7898914144339,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2023-05-28T02:07:48.000-03:00",
+			"updated_at": "2023-05-28T02:07:48.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.44,
+			"min_price": 0.44,
+			"gtins": [
+				{
+					"gtin": 7898914144339,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/8024B135DB11CBF492057C06FE7E8433.png"
+		},
+		{
+			"description": "LEITE IN NATURA",
+			"gtin": 7898901665205,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2023-04-17T06:09:10.000-03:00",
+			"updated_at": "2023-04-17T06:09:11.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": 0.75,
+			"max_price": 0.75,
+			"min_price": 0.75,
+			"gtins": [
+				{
+					"gtin": 7898901665205,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/C4D9BCEE57D426A2F996F1287B8EABF1.png"
+		},
+		{
+			"description": "GROSELHA IN NATURA",
+			"gtin": 7898935886287,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7898935886287",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2016-02-12T19:25:26.000-02:00",
+			"updated_at": "2023-04-06T16:55:46.000-03:00",
+			"release_date": null,
+			"price": "$3.88 to $6.51",
+			"avg_price": 5.195,
+			"max_price": 6.51,
+			"min_price": 3.88,
+			"gtins": [
+				{
+					"gtin": 7898935886287,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/D8FC96A11DAD54A06A10B45255E4CFAE.png",
+			"ncm": {
+				"code": "08103000",
+				"description": "Groselhas, incluindo o cassis",
+				"full_description": "Frutas; cascas de cítricos e de melões - Outras frutas frescas - Groselhas, incluindo o cassis",
+				"ex": null
+			}
+		},
+		{
+			"description": "COGUMELO IN NATURA",
+			"gtin": 7897765600131,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7897765600131",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2016-01-19T14:09:40.000-02:00",
+			"updated_at": "2023-01-21T02:54:52.000-03:00",
+			"release_date": null,
+			"price": "$2.79 to $4.12",
+			"avg_price": 3.455,
+			"max_price": 4.12,
+			"min_price": 2.79,
+			"gtins": [
+				{
+					"gtin": 7897765600131,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/820B3565F9920E674CA4AFCBD0FB9EC1.png",
+			"ncm": {
+				"code": "07095900",
+				"description": "Outros",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Outros produtos hortícolas, frescos ou refrigerados - Cogumelos e trufas: - Outros",
+				"ex": null
+			}
+		},
+		{
+			"description": "BROCOLIS IN NATURA",
+			"gtin": 174522001,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2023-05-28T10:32:20.000-03:00",
+			"updated_at": "2023-05-28T10:32:21.000-03:00",
+			"release_date": null,
+			"price": "$1.02",
+			"avg_price": 1.02,
+			"max_price": 1.02,
+			"min_price": 1.02,
+			"gtins": [
+				{
+					"gtin": 174522001,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/CC47FA5ECE5A7A4C68668DC8FEE3405F.png"
+		},
+		{
+			"description": "AMENDOIM IN NATURA",
+			"gtin": 200022987,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2023-03-15T11:43:58.000-03:00",
+			"updated_at": "2023-04-14T17:18:05.000-03:00",
+			"release_date": null,
+			"price": "$3.11",
+			"avg_price": 3.11,
+			"max_price": 3.11,
+			"min_price": 3.11,
+			"gtins": [
+				{
+					"gtin": 200022987,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/790C8B384F3A522431A333C16C35BB2E.png"
+		},
+		{
+			"description": "NATURA HUMOR 1 DEODORANT 100ML BY NATURA DO BRAZIL",
+			"gtin": 7898460845056,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7898460845056",
+			"width": 7.62,
+			"height": 15.24,
+			"length": 22.86,
+			"net_weight": 453,
+			"gross_weight": 453,
+			"created_at": "2016-07-04T04:17:06.000-03:00",
+			"updated_at": "2021-10-03T14:07:51.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898460845056,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/78F8AB2D1816A7E6C86D15007255581D.png",
+			"brand": {
+				"name": "NATURA",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura"
+			}
+		},
+		{
+			"description": "NATURA ESSENCIAL DEO PARFUM MEN 100ML BY NATURA",
+			"gtin": 784179623405,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/784179623405",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2016-10-06T11:57:29.000-03:00",
+			"updated_at": "2017-03-27T21:18:56.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 784179623405,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/6EFF13D0021AA7A5C99ABF6959E77455.png",
+			"brand": {
+				"name": "NATURA",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura"
+			}
+		},
+		{
+			"description": "NATURA FACES OUSADA DESODORANTE SPRAY 100ML BY NATURA",
+			"gtin": 753018896256,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/753018896256",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2017-01-19T11:41:51.000-02:00",
+			"updated_at": "2017-01-19T11:41:53.000-02:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 753018896256,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/7A5CD5720FC309662CA917918BD209DA.png",
+			"brand": {
+				"name": "NATURA",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura"
+			}
+		},
+		{
+			"description": "NATURA BISSE NATURA BISSE ESSENTIAL SHOCK CREAM",
+			"gtin": 8436002990438,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/8436002990438",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-09-17T07:03:27.000-03:00",
+			"updated_at": "2019-12-13T01:50:07.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 8436002990438,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/E261A9683D6BA40C51F1D5338B656C56.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			},
+			"gpc": {
+				"code": "53000000",
+				"description": "Beauty / Personal Care / Hygiene"
+			}
+		},
+		{
+			"description": "NATURA BISSE NATURA BISSE TENSOLIFT NECK CREAM",
+			"gtin": 8436002996843,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/8436002996843",
+			"width": 8.509,
+			"height": 8.001,
+			"length": 8.509,
+			"net_weight": 204,
+			"gross_weight": 204,
+			"created_at": "2015-09-17T07:47:41.000-03:00",
+			"updated_at": "2019-12-10T20:25:45.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 8436002996843,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/E261A9683D6BA40C4BC9242AD68BFE45.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			},
+			"gpc": {
+				"code": "53000000",
+				"description": "Beauty / Personal Care / Hygiene"
+			}
+		},
+		{
+			"description": "NATURA BISSE NATURA BISSE EYE CONTOUR CREAM",
+			"gtin": 8436002997963,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/8436002997963",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-09-18T16:53:32.000-03:00",
+			"updated_at": "2019-12-12T01:04:10.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 8436002997963,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/E261A9683D6BA40CC644D06E9FA17E68.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			},
+			"gpc": {
+				"code": "53000000",
+				"description": "Beauty / Personal Care / Hygiene"
+			}
+		},
+		{
+			"description": "NATURA DEO PARFUM ESSENCIAL ESTILO MALE 100ML BY NATURA",
+			"gtin": 784179789156,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/784179789156",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2016-10-06T11:57:34.000-03:00",
+			"updated_at": "2019-06-23T11:25:42.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 784179789156,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/A5E5DC156D5E039E3120DD9678B5D93C.png",
+			"brand": {
+				"name": "NATURA",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura"
+			}
+		},
+		{
+			"description": "NATURA TODODIA DESODORANTE ANTITRANSPIRANTE EM CREME MACADAMIA 80G BY NATURA",
+			"gtin": 794168253407,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/794168253407",
+			"width": 4.4958,
+			"height": 13.4874,
+			"length": 5.9944,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2016-10-07T11:42:49.000-03:00",
+			"updated_at": "2020-05-31T10:18:27.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 794168253407,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/39A2491701FD46F367455D22444A12F2.png",
+			"brand": {
+				"name": "NATURA",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura"
+			}
+		},
+		{
+			"description": "NATURA EKOS COCOA (CACAU) FEET MOISTURIZING 100G BY NATURA",
+			"gtin": 757183944903,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/757183944903",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2016-12-20T02:55:14.000-02:00",
+			"updated_at": "2016-12-20T02:55:15.000-02:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 757183944903,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/78A7E1B94AB568193A823F417068A294.png",
+			"brand": {
+				"name": "NATURA",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura"
+			}
+		},
+		{
+			"description": "NONI IN NATURA DESIDRATADO .",
+			"gtin": 7898926012015,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2017-06-15T18:29:51.000-03:00",
+			"updated_at": "2018-01-15T12:22:09.000-02:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898926012015,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/346AF44333E690A6C8A181A2B3B9E832.png"
+		},
+		{
+			"description": "SHAKE DE VERDURAS NATURA .",
+			"gtin": 7898226920935,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2017-06-14T19:52:52.000-03:00",
+			"updated_at": "2021-07-26T06:54:40.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898226920935,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/CFED06D211633E1C2314C7993EBE1070.png",
+			"brand": {
+				"name": "AMAZONIA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "21069030",
+				"description": "Complementos alimentares",
+				"full_description": "Preparações alimentícias diversas - Preparações alimentícias não especificadas nem compreendidas em outras posições - Outras - Complementos alimentares",
+				"ex": null
+			}
+		},
+		{
+			"description": "IN NATURA 500G SEM AÇÚCAR .",
+			"gtin": 7896407705012,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2017-06-13T15:33:22.000-03:00",
+			"updated_at": "2020-12-06T20:38:50.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7896407705012,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/7C68B276EE8A1B451E692A5488162AE9.png",
+			"brand": {
+				"name": "MATUSA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "11041900",
+				"description": "De outros cereais",
+				"full_description": "Produtos da indústria de moagem; malte; amidos e féculas; inulina; glúten de trigo - Grãos de cereais trabalhados de outro modo (por exemplo, descascados, esmagados, em flocos, em pérolas, cortados ou partidos), com exclusão do arroz da posição 10.06; germes de cereais, inteiros, esmagados, em flocos ou moídos. - Grãos esmagados ou em flocos: - De outros cereais",
+				"ex": null
+			}
+		},
+		{
+			"description": "MIST.NUTRI IN NATURA 500GR",
+			"gtin": 7896853000501,
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2016-04-06T02:34:59.000-03:00",
+			"updated_at": "2022-02-08T00:00:13.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7896853000501,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/3D9B67280A2335FE4AD1E3536BDDC8F2.png",
+			"brand": {
+				"name": "IN NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			}
+		},
+		{
+			"description": "SHAKE IN NATURA MAMAO",
+			"gtin": 7898169240107,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7898169240107",
+			"width": 1000.0,
+			"height": 1000.0,
+			"length": 1000.0,
+			"net_weight": 360,
+			"gross_weight": 360,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2023-01-14T06:28:37.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898169240107,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/252294D4803405E554225E1C9BC4B03F.png",
+			"brand": {
+				"name": "IN NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "21069030",
+				"description": "Complementos alimentares",
+				"full_description": "Preparações alimentícias diversas - Preparações alimentícias não especificadas nem compreendidas em outras posições - Outras - Complementos alimentares",
+				"ex": null
+			}
+		},
+		{
+			"description": "CHÁ VERDE IN NATURA",
+			"gtin": 7898169240527,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7898169240527",
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": 210,
+			"gross_weight": 210,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2023-01-20T14:18:08.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898169240527,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				},
+				{
+					"gtin": 17898169240524,
+					"commercial_unit": {
+						"type_packaging": "Caixa",
+						"quantity_packaging": 12,
+						"ballast": 0,
+						"layer": 0
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/252294D4803405E5EF4D7C4BCFED7432.png",
+			"brand": {
+				"name": "IN NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "09021000",
+				"description": "Chá verde (não fermentado) em embalagens imediatas de conteúdo não superior a 3 kg",
+				"full_description": "Café, chá, mate e especiarias - Chá, mesmo aromatizado - Chá verde (não fermentado) em embalagens imediatas de conteúdo não superior a 3 kg",
+				"ex": null
+			},
+			"cest": {
+				"id": 2144,
+				"code": "1709700",
+				"description": "Chá, mesmo aromatizado",
+				"parent_id": 1671
+			}
+		},
+		{
+			"description": "SHAKE IN NATURA BANANA",
+			"gtin": 7898169240091,
+			"width": 1000.0,
+			"height": 1000.0,
+			"length": 1000.0,
+			"net_weight": 350,
+			"gross_weight": 350,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2023-03-17T02:19:55.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898169240091,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				},
+				{
+					"gtin": 17898169240098,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": 0,
+						"layer": 0
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/252294D4803405E501442541C328611B.png",
+			"brand": {
+				"name": "IN NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "21069030",
+				"description": "Complementos alimentares",
+				"full_description": "Preparações alimentícias diversas - Preparações alimentícias não especificadas nem compreendidas em outras posições - Outras - Complementos alimentares",
+				"ex": null
+			}
+		},
+		{
+			"description": "SHAKE IN NATURA COCO",
+			"gtin": 7898169240046,
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": 350,
+			"gross_weight": 350,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2023-03-17T02:19:55.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898169240046,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				},
+				{
+					"gtin": 17898169240043,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": 0,
+						"layer": 0
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/252294D4803405E509FA769C3290599E.png",
+			"brand": {
+				"name": "IN NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "21069030",
+				"description": "Complementos alimentares",
+				"full_description": "Preparações alimentícias diversas - Preparações alimentícias não especificadas nem compreendidas em outras posições - Outras - Complementos alimentares",
+				"ex": null
+			}
+		},
+		{
+			"description": "IN NATURA MISTURA DE CEREAIS",
+			"gtin": 7898169240015,
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2023-05-23T10:34:51.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898169240015,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/252294D4803405E5F4A9EC9B76F22028.png",
+			"brand": {
+				"name": "IN NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "21069030",
+				"description": "Complementos alimentares",
+				"full_description": "Preparações alimentícias diversas - Preparações alimentícias não especificadas nem compreendidas em outras posições - Outras - Complementos alimentares",
+				"ex": null
+			}
+		},
+		{
+			"description": "CHA IN NATURA AMARELO",
+			"gtin": 7898169240558,
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2020-05-01T13:36:25.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898169240558,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/252294D4803405E521A86B130D4F3B5A.png",
+			"brand": {
+				"name": "IN NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "09021000",
+				"description": "Chá verde (não fermentado) em embalagens imediatas de conteúdo não superior a 3 kg",
+				"full_description": "Café, chá, mate e especiarias - Chá, mesmo aromatizado - Chá verde (não fermentado) em embalagens imediatas de conteúdo não superior a 3 kg",
+				"ex": null
+			},
+			"cest": {
+				"id": 2144,
+				"code": "1709700",
+				"description": "Chá, mesmo aromatizado",
+				"parent_id": 1671
+			}
+		},
+		{
+			"description": "CHA IN NATURA BRANCO",
+			"gtin": 7898169240534,
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2023-03-16T01:47:13.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898169240534,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/252294D4803405E51190E591B5A16406.png",
+			"brand": {
+				"name": "IN NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "09021000",
+				"description": "Chá verde (não fermentado) em embalagens imediatas de conteúdo não superior a 3 kg",
+				"full_description": "Café, chá, mate e especiarias - Chá, mesmo aromatizado - Chá verde (não fermentado) em embalagens imediatas de conteúdo não superior a 3 kg",
+				"ex": null
+			},
+			"cest": {
+				"id": 2144,
+				"code": "1709700",
+				"description": "Chá, mesmo aromatizado",
+				"parent_id": 1671
+			}
+		},
+		{
+			"description": "CHA IN NATURA VERMELHO",
+			"gtin": 7898169240541,
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2020-05-01T13:37:45.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898169240541,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/252294D4803405E5B3EF4BF2631941E5.png",
+			"brand": {
+				"name": "IN NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "09021000",
+				"description": "Chá verde (não fermentado) em embalagens imediatas de conteúdo não superior a 3 kg",
+				"full_description": "Café, chá, mate e especiarias - Chá, mesmo aromatizado - Chá verde (não fermentado) em embalagens imediatas de conteúdo não superior a 3 kg",
+				"ex": null
+			},
+			"cest": {
+				"id": 2144,
+				"code": "1709700",
+				"description": "Chá, mesmo aromatizado",
+				"parent_id": 1671
+			}
+		},
+		{
+			"description": "ALHO IN NATURA PRECITO S/S",
+			"gtin": 7898904027154,
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-05-08T18:31:09.000-03:00",
+			"updated_at": "2020-11-07T19:32:41.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898904027154,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/488E375811FC93337EFBFA97CCD3EA38.png",
+			"gpc": {
+				"code": "10006003",
+				"description": "Garlic"
+			},
+			"ncm": {
+				"code": "07032090",
+				"description": "Outros",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Cebolas, chalotas (“échalotes”), alhos, alhosporro e outros produtos hortícolas aliáceos, frescos ou refrigerados - Alhos - Outros",
+				"ex": null
+			}
+		},
+		{
+			"description": "BROCOLIS CEASTA IN NATURA",
+			"gtin": 7898911314704,
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": 0,
+			"gross_weight": 0,
+			"created_at": "2015-10-14T15:27:26.000-03:00",
+			"updated_at": "2020-11-09T17:53:16.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898911314704,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/DBDA6D5DFE1C2429F86A91496B32C5E1.png",
+			"ncm": {
+				"code": "07041000",
+				"description": "Couve-flor e brócolis (var. botrytis L.)",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Couves, couveflor, repolho ou couve frisada, couverábano e produtos comestíveis semelhantes do gênero Brassica, frescos ou refrigerados - Couve-flor e brócolis (var. botrytis L.)",
+				"ex": null
+			}
+		},
+		{
+			"description": "REPOLHO CEASTA IN NATURA",
+			"gtin": 7898911319006,
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": 1,
+			"gross_weight": 1,
+			"created_at": "2015-10-14T15:27:27.000-03:00",
+			"updated_at": "2020-11-09T18:04:04.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898911319006,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/DBDA6D5DFE1C2429354380915255DC80.png",
+			"ncm": {
+				"code": "07049000",
+				"description": "Outros",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Couves, couveflor, repolho ou couve frisada, couverábano e produtos comestíveis semelhantes do gênero Brassica, frescos ou refrigerados - Outros",
+				"ex": null
+			}
+		},
+		{
+			"description": "CENOURA CEASTA IN NATURA",
+			"gtin": 7898911318801,
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": 0,
+			"gross_weight": 0,
+			"created_at": "2015-10-14T15:27:42.000-03:00",
+			"updated_at": "2020-11-11T09:56:13.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898911318801,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/DBDA6D5DFE1C2429D102A2E172DDCDDC.png",
+			"ncm": {
+				"code": "07061000",
+				"description": "Cenouras e nabos",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Cenouras, nabos, beterrabas para salada, cercefi, aiporábano, rabanetes e raízes comestíveis semelhantes, frescos ou refrigerados - Cenouras e nabos",
+				"ex": null
+			}
+		},
+		{
+			"description": "BETERRABA CEASTA IN NATURA",
+			"gtin": 7898911317606,
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": 0,
+			"gross_weight": 0,
+			"created_at": "2015-10-14T15:28:11.000-03:00",
+			"updated_at": "2020-11-11T09:59:39.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898911317606,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/DBDA6D5DFE1C2429347CB29BF17CB93D.png",
+			"ncm": {
+				"code": "07069000",
+				"description": "Outros",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Cenouras, nabos, beterrabas para salada, cercefi, aiporábano, rabanetes e raízes comestíveis semelhantes, frescos ou refrigerados - Outros",
+				"ex": null
+			}
+		},
+		{
+			"description": "QUIABO CEASTA IN NATURA",
+			"gtin": 7898911316708,
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": 0,
+			"gross_weight": 0,
+			"created_at": "2015-10-14T15:28:25.000-03:00",
+			"updated_at": "2022-10-18T14:39:57.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898911316708,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/DBDA6D5DFE1C24296159010A419264DA.png",
+			"ncm": {
+				"code": "07095900",
+				"description": "Outros",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Outros produtos hortícolas, frescos ou refrigerados - Cogumelos e trufas: - Outros",
+				"ex": null
+			}
+		},
+		{
+			"description": "IN NATURA MISTURA DE CEREAIS",
+			"gtin": 7898169240039,
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": 1,
+			"gross_weight": 1,
+			"created_at": "2016-01-19T13:45:26.000-02:00",
+			"updated_at": "2023-03-17T02:19:55.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898169240039,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/252294D4803405E5FA8B9CCEB36B0ED6.png",
+			"brand": {
+				"name": "IN NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "21069030",
+				"description": "Complementos alimentares",
+				"full_description": "Preparações alimentícias diversas - Preparações alimentícias não especificadas nem compreendidas em outras posições - Outras - Complementos alimentares",
+				"ex": null
+			}
+		},
+		{
+			"description": "ACAI TENTACAO NATURA",
+			"gtin": 7898945278966,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2020-08-15T22:55:52.000-03:00",
+			"updated_at": "2021-10-09T03:09:45.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898945278966,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/7B3E1437233F4D2D1E3D810BA25F3746.png"
+		},
+		{
+			"description": "COGUMELO IN NATURA PARIS",
+			"gtin": 7898939047127,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2020-11-20T04:31:55.000-03:00",
+			"updated_at": "2021-10-07T08:26:35.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898939047127,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/194E6FB3160582073EDE5F9D4B0A29D2.png"
+		},
+		{
+			"description": "NATURA CHRONOS 45+",
+			"gtin": 885818071691,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/885818071691",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2016-09-07T05:39:27.000-03:00",
+			"updated_at": "2016-09-07T05:39:28.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 885818071691,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/F90A7C31C1178E981B68B6C30B1A5D55.png",
+			"brand": {
+				"name": "NATURA",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura"
+			}
+		},
+		{
+			"description": "ALHO IN NATURA DINDINHA S/S",
+			"gtin": 7896511600166,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-05-08T18:06:06.000-03:00",
+			"updated_at": "2021-08-21T02:00:41.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7896511600166,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/113A997D89762E02BE38CC74595F77BE.png",
+			"brand": {
+				"name": "AGROLAF",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"gpc": {
+				"code": "10006003",
+				"description": "Garlic"
+			},
+			"ncm": {
+				"code": "07032090",
+				"description": "Outros",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Cebolas, chalotas (“échalotes”), alhos, alhosporro e outros produtos hortícolas aliáceos, frescos ou refrigerados - Alhos - Outros",
+				"ex": null
+			}
+		},
+		{
+			"description": "AMORA IN NATURA 170GR",
+			"gtin": 7898935886119,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2023-03-13T04:28:25.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898935886119,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/D8FC96A11DAD54A021DC40269A993323.png",
+			"ncm": {
+				"code": "08102000",
+				"description": "Framboesas, amoras, incluindo as silvestres, e amoras-framboesas",
+				"full_description": "Frutas; cascas de cítricos e de melões - Outras frutas frescas - Framboesas, amoras, incluindo as silvestres, e amoras-framboesas",
+				"ex": null
+			}
+		},
+		{
+			"description": "IN NATURA MISTURA DE CEREAIS",
+			"gtin": 7898169240084,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7898169240084",
+			"width": 0.0,
+			"height": 0.0,
+			"length": 0.0,
+			"net_weight": 500,
+			"gross_weight": 525,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2023-01-20T09:10:30.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898169240084,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/252294D4803405E57086E924EF7C15B9.png",
+			"brand": {
+				"name": "IN NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "21069030",
+				"description": "Complementos alimentares",
+				"full_description": "Preparações alimentícias diversas - Preparações alimentícias não especificadas nem compreendidas em outras posições - Outras - Complementos alimentares",
+				"ex": null
+			}
+		},
+		{
+			"description": "NATURA HIDR.TODO.REF.LIM.L.400",
+			"gtin": 7908240860145,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2021-05-01T17:51:11.000-03:00",
+			"updated_at": "2021-06-12T01:59:06.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7908240860145,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/F356FABD4E749029AB3F4AB0EE33D6BD.png"
+		},
+		{
+			"description": "NATURA HOMEM ESSENCE",
+			"gtin": 7908132264419,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2021-09-05T11:02:12.000-03:00",
+			"updated_at": "2021-10-09T05:15:21.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7908132264419,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/1BDA36F8A90F0F1C2762A43D7CDABD41.png"
+		},
+		{
+			"description": "SABONETE NATURA SORTIDOS",
+			"gtin": 7908240831756,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2020-08-16T05:44:00.000-03:00",
+			"updated_at": "2020-10-10T11:00:01.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7908240831756,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/F356FABD4E749029C0D4CB7D22E76A20.png"
+		},
+		{
+			"description": "LASCA DE COCO NATURA",
+			"gtin": 2106770009071,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2022-01-03T19:36:33.000-03:00",
+			"updated_at": "2022-01-03T19:36:33.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 2106770009071,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/F2FFE7A66311A9FECE4DC7F6388034AB.png"
+		},
+		{
+			"description": "LASCA DE COCO NATURA",
+			"gtin": 2106770008401,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2022-01-03T19:11:33.000-03:00",
+			"updated_at": "2022-01-03T19:11:33.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 2106770008401,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/F2FFE7A66311A9FE171D8254848E6EA6.png"
+		},
+		{
+			"description": "AMORA IN NATURA 100G",
+			"gtin": 7898348397998,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2022-03-28T10:46:55.000-03:00",
+			"updated_at": "2022-03-28T10:46:55.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898348397998,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/D89063A524B901D43364779156C95ED2.png"
+		},
+		{
+			"description": "GENGIBRE IN NATURA 2",
+			"gtin": 7896404201227,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2021-10-30T09:25:08.000-03:00",
+			"updated_at": "2023-03-16T00:52:32.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7896404201227,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/F717C228DD967906C35FD8864930C4DB.png"
+		},
+		{
+			"description": "COUVE FLOR IN NATURA",
+			"gtin": 7896404201074,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2022-03-14T08:41:04.000-03:00",
+			"updated_at": "2023-03-16T00:52:31.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7896404201074,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/F717C228DD96790679338EDCD44942EF.png"
+		},
+		{
+			"description": "NOZES NATURA 200G",
+			"gtin": 7898945067027,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2022-05-10T20:31:29.000-03:00",
+			"updated_at": "2023-03-11T00:55:37.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898945067027,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/76F46C27989D47D0D5F0EC698310B97D.png"
+		},
+		{
+			"description": "MEL IN NATURA 260G",
+			"gtin": 7898012002104,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2023-03-12T01:48:53.000-03:00",
+			"updated_at": "2023-03-12T01:48:53.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898012002104,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/5429F949E9E2D492D8AC09EBE5330602.png"
+		},
+		{
+			"description": "CHIA ESSENCIA NATURA",
+			"gtin": 7898959964046,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2023-03-19T12:10:56.000-03:00",
+			"updated_at": "2023-03-19T12:10:56.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7898959964046,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/A1795962E6B73656675DE4C99284DCD4.png"
+		},
+		{
+			"description": "H-COGUMELO IN NATURA",
+			"gtin": 602883011960,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2023-03-11T10:19:57.000-03:00",
+			"updated_at": "2023-03-11T10:19:57.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 602883011960,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/C052C4D399E9A834DCE3ACE5C37E129B.png"
+		},
+		{
+			"description": "BATATA DOCE IN NATURA",
+			"gtin": 60911001,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2023-03-04T09:19:13.000-03:00",
+			"updated_at": "2023-03-04T09:19:13.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 60911001,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/CE5EB09E4257F9905005263B180B79EE.png"
+		},
+		{
+			"description": "SHAKE IN NATURA BAUNILHA",
+			"gtin": 7898169240053,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7898169240053",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2023-01-14T06:28:36.000-03:00",
+			"release_date": null,
+			"price": "$5.93",
+			"avg_price": 5.93,
+			"max_price": 5.93,
+			"min_price": 5.93,
+			"gtins": [
+				{
+					"gtin": 7898169240053,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/252294D4803405E584F1A6610F730944.png",
+			"brand": {
+				"name": "IN NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "21069030",
+				"description": "Complementos alimentares",
+				"full_description": "Preparações alimentícias diversas - Preparações alimentícias não especificadas nem compreendidas em outras posições - Outras - Complementos alimentares",
+				"ex": null
+			}
+		},
+		{
+			"description": "SHAKE IN NATURA CHOCOLATE",
+			"gtin": 7898169240077,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7898169240077",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2023-01-14T06:28:37.000-03:00",
+			"release_date": null,
+			"price": "$5.93",
+			"avg_price": 5.93,
+			"max_price": 5.93,
+			"min_price": 5.93,
+			"gtins": [
+				{
+					"gtin": 7898169240077,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/252294D4803405E555CDFC23BCAAFC50.png",
+			"brand": {
+				"name": "IN NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "21069030",
+				"description": "Complementos alimentares",
+				"full_description": "Preparações alimentícias diversas - Preparações alimentícias não especificadas nem compreendidas em outras posições - Outras - Complementos alimentares",
+				"ex": null
+			}
+		},
+		{
+			"description": "CREME DE ACAI NATURA",
+			"gtin": 7898130771623,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2022-04-02T01:43:20.000-03:00",
+			"updated_at": "2023-03-17T01:49:17.000-03:00",
+			"release_date": null,
+			"price": "$8.18",
+			"avg_price": 8.18,
+			"max_price": 8.18,
+			"min_price": 8.18,
+			"gtins": [
+				{
+					"gtin": 7898130771623,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/775D45B2C30FA694FC945188C6C831B5.png"
+		},
+		{
+			"description": "MANTEIGA NATURA 250G",
+			"gtin": 7898213580302,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2022-04-12T14:15:38.000-03:00",
+			"updated_at": "2022-04-12T14:15:40.000-03:00",
+			"release_date": null,
+			"price": "$2.39",
+			"avg_price": 2.39,
+			"max_price": 2.39,
+			"min_price": 2.39,
+			"gtins": [
+				{
+					"gtin": 7898213580302,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/6B32C303AF8F2980399AEF53BE174BC0.png"
+		},
+		{
+			"description": "ALFACE CRESPA NATURA",
+			"gtin": 7898267258332,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2023-03-19T02:54:57.000-03:00",
+			"updated_at": "2023-04-13T15:34:55.000-03:00",
+			"release_date": null,
+			"price": "$2.43 to $2.73",
+			"avg_price": 2.58,
+			"max_price": 2.73,
+			"min_price": 2.43,
+			"gtins": [
+				{
+					"gtin": 7898267258332,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/15DBC1C8913278B571D0D115C8C4017A.png"
+		},
+		{
+			"description": "SHAKE IN NATURA MORANGO",
+			"gtin": 7898169240060,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7898169240060",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2023-01-14T06:28:37.000-03:00",
+			"release_date": null,
+			"price": "$5.93",
+			"avg_price": 5.93,
+			"max_price": 5.93,
+			"min_price": 5.93,
+			"gtins": [
+				{
+					"gtin": 7898169240060,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/252294D4803405E5EADCE554163FF7A6.png",
+			"brand": {
+				"name": "IN NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "21069030",
+				"description": "Complementos alimentares",
+				"full_description": "Preparações alimentícias diversas - Preparações alimentícias não especificadas nem compreendidas em outras posições - Outras - Complementos alimentares",
+				"ex": null
+			}
+		},
+		{
+			"description": "NATURA BIOGRAFIA DESODORANTE",
+			"gtin": 7898447683756,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7898447683756",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-11-30T11:50:49.000-02:00",
+			"updated_at": "2021-05-21T18:12:18.000-03:00",
+			"release_date": null,
+			"price": "$12.25",
+			"avg_price": 12.25,
+			"max_price": 12.25,
+			"min_price": 12.25,
+			"gtins": [
+				{
+					"gtin": 7898447683756,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/DC24E5ED56D2F720A8788AB25918A23D.png",
+			"brand": {
+				"name": "NATURA",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura"
+			},
+			"ncm": {
+				"code": "33072010",
+				"description": "Líquidos",
+				"full_description": "Óleos essenciais e resinóides; produtos de perfumaria ou de toucador preparados e preparações cosméticas - Preparações para barbear (antes, durante ou após), desodorantes corporais, preparações para banhos, depilatórios, outros produtos de perfumaria ou de toucador preparados e outras preparações cosméticas, não especificados nem compreendidos em outras posições; desodorantes de ambiente, preparados, mesmo não perfumados, com ou sem propriedades desinfetantes  - Desodorantes corporais e antiperspirantes - Líquidos",
+				"ex": null
+			}
+		},
+		{
+			"description": "NATURA LIFE CASTANHA DO PARA",
+			"gtin": 7898332900562,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2023-05-06T23:05:04.000-03:00",
+			"updated_at": "2023-05-06T23:05:06.000-03:00",
+			"release_date": null,
+			"price": "$4.07 to $4.80",
+			"avg_price": 4.4350000000000005,
+			"max_price": 4.8,
+			"min_price": 4.07,
+			"gtins": [
+				{
+					"gtin": 7898332900562,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/E2562C4DAA1E111E3665B218AA2A7E7E.png"
+		},
+		{
+			"description": "ALHO CADEBE IN NATURA",
+			"gtin": 7898393260032,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2016-01-19T14:48:21.000-02:00",
+			"updated_at": "2022-12-22T06:24:09.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": 0.88,
+			"max_price": 0.88,
+			"min_price": 0.88,
+			"gtins": [
+				{
+					"gtin": 7898393260032,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/8A7BE4FAD70927B11CC733DB9108062B.png",
+			"brand": {
+				"name": "ALIMENTOS CADEBE",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"gpc": {
+				"code": "10006003",
+				"description": "Garlic"
+			},
+			"ncm": {
+				"code": "07032090",
+				"description": "Outros",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Cebolas, chalotas (“échalotes”), alhos, alhosporro e outros produtos hortícolas aliáceos, frescos ou refrigerados - Alhos - Outros",
+				"ex": null
+			}
+		},
+		{
+			"description": "ALHO CADEBE IN NATURA",
+			"gtin": 7896461700503,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2022-12-22T20:49:35.000-03:00",
+			"release_date": null,
+			"price": "$1.46",
+			"avg_price": 1.46,
+			"max_price": 1.46,
+			"min_price": 1.46,
+			"gtins": [
+				{
+					"gtin": 7896461700503,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/3BA8553F30BE5D1F48E2CFB8E1E238F2.png",
+			"gpc": {
+				"code": "10006003",
+				"description": "Garlic"
+			},
+			"ncm": {
+				"code": "07032090",
+				"description": "Outros",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Cebolas, chalotas (“échalotes”), alhos, alhosporro e outros produtos hortícolas aliáceos, frescos ou refrigerados - Alhos - Outros",
+				"ex": null
+			}
+		},
+		{
+			"description": "VAGEM IN NATURA 250G",
+			"gtin": 7896404201326,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2021-10-05T20:19:03.000-03:00",
+			"updated_at": "2023-03-16T00:52:33.000-03:00",
+			"release_date": null,
+			"price": "$1.94",
+			"avg_price": 1.94,
+			"max_price": 1.94,
+			"min_price": 1.94,
+			"gtins": [
+				{
+					"gtin": 7896404201326,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/F717C228DD967906D28F1866715CE30A.png"
+		},
+		{
+			"description": "CHUCHU IN NATURA 700",
+			"gtin": 7896404201234,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2021-10-05T08:31:08.000-03:00",
+			"updated_at": "2023-03-16T00:52:34.000-03:00",
+			"release_date": null,
+			"price": "$2.96",
+			"avg_price": 2.96,
+			"max_price": 2.96,
+			"min_price": 2.96,
+			"gtins": [
+				{
+					"gtin": 7896404201234,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/F717C228DD967906DEED3148C005DACF.png"
+		},
+		{
+			"description": "QUIABO IN NATURA 250",
+			"gtin": 7896404201364,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2021-10-05T20:19:03.000-03:00",
+			"updated_at": "2023-03-16T00:52:34.000-03:00",
+			"release_date": null,
+			"price": "$1.37 to $1.39",
+			"avg_price": 1.38,
+			"max_price": 1.39,
+			"min_price": 1.37,
+			"gtins": [
+				{
+					"gtin": 7896404201364,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/F717C228DD9679066D31A3E08CFE5C1F.png"
+		},
+		{
+			"description": "ALHO IN NATURA PORTOREAL",
+			"gtin": 7896190602734,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2022-05-31T16:27:16.000-03:00",
+			"release_date": null,
+			"price": "$3.83 to $4.44",
+			"avg_price": 4.135,
+			"max_price": 4.44,
+			"min_price": 3.83,
+			"gtins": [
+				{
+					"gtin": 7896190602734,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/BD8940552E9521AB6B6937361960F346.png",
+			"gpc": {
+				"code": "10006003",
+				"description": "Garlic"
+			},
+			"ncm": {
+				"code": "07032090",
+				"description": "Outros",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Cebolas, chalotas (“échalotes”), alhos, alhosporro e outros produtos hortícolas aliáceos, frescos ou refrigerados - Alhos - Outros",
+				"ex": null
+			}
+		},
+		{
+			"description": "ALHO IN NATURA PORTOREAL",
+			"gtin": 7896190602727,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2022-11-29T06:06:23.000-03:00",
+			"release_date": null,
+			"price": "$2.09 to $2.18",
+			"avg_price": 2.135,
+			"max_price": 2.18,
+			"min_price": 2.09,
+			"gtins": [
+				{
+					"gtin": 7896190602727,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/BD8940552E9521ABD91FEC622A939771.png",
+			"gpc": {
+				"code": "10006003",
+				"description": "Garlic"
+			},
+			"ncm": {
+				"code": "07129090",
+				"description": "Outros",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Produtos hortícolas secos, mesmo cortados em pedaços ou fatias, ou ainda triturados ou em pó, mas sem qualquer outro preparo - Outros produtos hortícolas; misturas de produtos hortícolas - Outros",
+				"ex": null
+			}
+		},
+		{
+			"description": "ALHO IN NATURA PORTOREAL",
+			"gtin": 7896190600419,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2022-06-01T16:19:58.000-03:00",
+			"release_date": null,
+			"price": "$1.16 to $1.37",
+			"avg_price": 1.2650000000000001,
+			"max_price": 1.37,
+			"min_price": 1.16,
+			"gtins": [
+				{
+					"gtin": 7896190600419,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/BD8940552E9521ABF4CD50035C476959.png",
+			"gpc": {
+				"code": "10006003",
+				"description": "Garlic"
+			},
+			"ncm": {
+				"code": "07129090",
+				"description": "Outros",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Produtos hortícolas secos, mesmo cortados em pedaços ou fatias, ou ainda triturados ou em pó, mas sem qualquer outro preparo - Outros produtos hortícolas; misturas de produtos hortícolas - Outros",
+				"ex": null
+			}
+		},
+		{
+			"description": "ALHO CADEBE IN NATURA",
+			"gtin": 7896461700510,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2022-12-22T01:49:27.000-03:00",
+			"release_date": null,
+			"price": "$2.17 to $2.88",
+			"avg_price": 2.525,
+			"max_price": 2.88,
+			"min_price": 2.17,
+			"gtins": [
+				{
+					"gtin": 7896461700510,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/3BA8553F30BE5D1F96199BE9CDEF100E.png",
+			"gpc": {
+				"code": "10006003",
+				"description": "Garlic"
+			},
+			"ncm": {
+				"code": "07032090",
+				"description": "Outros",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Cebolas, chalotas (“échalotes”), alhos, alhosporro e outros produtos hortícolas aliáceos, frescos ou refrigerados - Alhos - Outros",
+				"ex": null
+			}
+		},
+		{
+			"description": "ALHO CADEBE IN NATURA",
+			"gtin": 7896461700572,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2014-04-24T11:07:34.000-03:00",
+			"updated_at": "2023-01-07T17:26:12.000-03:00",
+			"release_date": null,
+			"price": "$5.36 to $6.68",
+			"avg_price": 6.02,
+			"max_price": 6.68,
+			"min_price": 5.36,
+			"gtins": [
+				{
+					"gtin": 7896461700572,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/3BA8553F30BE5D1F06E4A2330B0B5D08.png",
+			"gpc": {
+				"code": "10006003",
+				"description": "Garlic"
+			},
+			"ncm": {
+				"code": "07032090",
+				"description": "Outros",
+				"full_description": "Produtos hortícolas, plantas, raízes e tubérculos, comestíveis - Cebolas, chalotas (“échalotes”), alhos, alhosporro e outros produtos hortícolas aliáceos, frescos ou refrigerados - Alhos - Outros",
+				"ex": null
+			}
+		},
+		{
+			"description": "ALHO IN NATURA 200G",
+			"gtin": 7898592945372,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2020-08-15T22:31:51.000-03:00",
+			"updated_at": "2022-04-11T17:05:12.000-03:00",
+			"release_date": null,
+			"price": "$3.68",
+			"avg_price": 3.68,
+			"max_price": 3.68,
+			"min_price": 3.68,
+			"gtins": [
+				{
+					"gtin": 7898592945372,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/89E93BBB22279715084DE0631C89B15A.png"
+		},
+		{
+			"description": "CASTANHA DO PARA IN NATURA 150G",
+			"gtin": 7898582000401,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2023-03-13T07:15:59.000-03:00",
+			"updated_at": "2023-03-17T01:41:56.000-03:00",
+			"release_date": null,
+			"price": "$5.47",
+			"avg_price": 5.47,
+			"max_price": 5.47,
+			"min_price": 5.47,
+			"gtins": [
+				{
+					"gtin": 7898582000401,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/FBE328375D75FCCD67B8092348EF7936.png"
+		},
+		{
+			"description": "TAMARA IN NATURA 200",
+			"gtin": 7898686000130,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7898686000130",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2021-01-20T23:46:16.000-03:00",
+			"updated_at": "2023-04-06T16:50:11.000-03:00",
+			"release_date": null,
+			"price": "$3.46",
+			"avg_price": 3.46,
+			"max_price": 3.46,
+			"min_price": 3.46,
+			"gtins": [
+				{
+					"gtin": 7898686000130,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				},
+				{
+					"gtin": 17898686000137,
+					"commercial_unit": {
+						"type_packaging": "Caixa",
+						"quantity_packaging": 25,
+						"ballast": 0,
+						"layer": 0
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/4D926A98D0F3A629105267B1C23B0FBB.png",
+			"ncm": {
+				"code": "08041010",
+				"description": "Frescas",
+				"full_description": "Frutas; cascas de cítricos e de melões - Tâmaras, figos, abacaxis (ananases), abacates, goiabas, mangas e mangostões, frescos ou secos - Tâmaras - Frescas",
+				"ex": null
+			}
+		},
+		{
+			"description": "CEBOLA IN NATURA 500G",
+			"gtin": 7898633691862,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2023-05-07T01:49:55.000-03:00",
+			"updated_at": "2023-05-07T01:49:56.000-03:00",
+			"release_date": null,
+			"price": "$1.01",
+			"avg_price": 1.01,
+			"max_price": 1.01,
+			"min_price": 1.01,
+			"gtins": [
+				{
+					"gtin": 7898633691862,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/D8A427D454F0CDC64939ADEC277B568D.png"
+		}
+	],
+	"current_page": 1,
+	"per_page": 90,
+	"total_pages": 31,
+	"total_count": 2719,
+	"next_page": "https://api.cosmos.bluesoft.io/products?page=2&query=natura"
+}

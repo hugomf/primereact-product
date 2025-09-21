@@ -1,0 +1,921 @@
+[
+		{
+			"description": "C+C VITAMIN CREAM SPF 10",
+			"gtin": 8436002991398,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/8436002991398",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-09-18T18:01:51.000-03:00",
+			"updated_at": "2019-12-11T04:53:08.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 8436002991398,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/E261A9683D6BA40C20DB7F7C1F7749B1.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			},
+			"gpc": {
+				"code": "53000000",
+				"description": "Beauty / Personal Care / Hygiene"
+			}
+		},
+		{
+			"description": "FACIAL CLEANSING GEL WITH AHA",
+			"gtin": 8436002992531,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/8436002992531",
+			"width": 5.3086,
+			"height": 18.0086,
+			"length": 6.8072,
+			"net_weight": 204,
+			"gross_weight": 204,
+			"created_at": "2015-09-18T18:01:52.000-03:00",
+			"updated_at": "2019-12-12T00:20:55.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 8436002992531,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/E261A9683D6BA40CC13335F2FC6B67E1.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			},
+			"gpc": {
+				"code": "53000000",
+				"description": "Beauty / Personal Care / Hygiene"
+			}
+		},
+		{
+			"description": "DIAMOND DROPS",
+			"gtin": 8436002993484,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-09-18T18:01:53.000-03:00",
+			"updated_at": "2019-12-12T20:20:31.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 8436002993484,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/E261A9683D6BA40C9C2A74FE156F31E3.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			},
+			"gpc": {
+				"code": "53000000",
+				"description": "Beauty / Personal Care / Hygiene"
+			}
+		},
+		{
+			"description": "ROSA MOSQUETA OIL",
+			"gtin": 8436002994221,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/8436002994221",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-09-18T18:01:55.000-03:00",
+			"updated_at": "2019-12-11T15:20:55.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 8436002994221,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/E261A9683D6BA40CB012CB8F03517F24.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			},
+			"gpc": {
+				"code": "53000000",
+				"description": "Beauty / Personal Care / Hygiene"
+			}
+		},
+		{
+			"description": "HONEY BODY REFINER",
+			"gtin": 8436002994399,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/8436002994399",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-09-18T18:01:55.000-03:00",
+			"updated_at": "2017-02-08T07:17:00.000-02:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 8436002994399,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/E261A9683D6BA40C211EF5C4E61E59A7.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			},
+			"gpc": {
+				"code": "53000000",
+				"description": "Beauty / Personal Care / Hygiene"
+			}
+		},
+		{
+			"description": "ESSENTIAL SHOCK FINISHING MASK",
+			"gtin": 8436002994948,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/8436002994948",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-09-18T18:01:58.000-03:00",
+			"updated_at": "2019-12-12T05:31:27.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 8436002994948,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/E261A9683D6BA40C9A20C0B1691E2D43.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			},
+			"gpc": {
+				"code": "53000000",
+				"description": "Beauty / Personal Care / Hygiene"
+			}
+		},
+		{
+			"description": "STABILIZING COMPLEX OIL-FREE BALANCING COMPLEX WITH SALICLIC ACID 2",
+			"gtin": 8436002995334,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/8436002995334",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-09-18T18:01:59.000-03:00",
+			"updated_at": "2019-12-12T21:01:26.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 8436002995334,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/E261A9683D6BA40C09E27F406D20199C.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			},
+			"gpc": {
+				"code": "53000000",
+				"description": "Beauty / Personal Care / Hygiene"
+			}
+		},
+		{
+			"description": "GLYCOLINE GLYCO BALANCE EXFOLIATING FLUID FOR OILY SKIN",
+			"gtin": 8436002995402,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/8436002995402",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-09-18T18:02:00.000-03:00",
+			"updated_at": "2019-12-11T20:06:45.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 8436002995402,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/E261A9683D6BA40CFDC27EE70CAA1D85.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			},
+			"gpc": {
+				"code": "53000000",
+				"description": "Beauty / Personal Care / Hygiene"
+			}
+		},
+		{
+			"description": "EYE MAKE UP REMOVER",
+			"gtin": 8436002995662,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/8436002995662",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-09-18T18:02:01.000-03:00",
+			"updated_at": "2019-12-11T03:17:12.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 8436002995662,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/E261A9683D6BA40CD32857498412267B.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			},
+			"gpc": {
+				"code": "53000000",
+				"description": "Beauty / Personal Care / Hygiene"
+			}
+		},
+		{
+			"description": "DIAMOND EXTREME EYE",
+			"gtin": 8436002997390,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/8436002997390",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-09-18T18:02:03.000-03:00",
+			"updated_at": "2019-12-13T00:54:05.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 8436002997390,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/E261A9683D6BA40C2CE9D47C60680DEA.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			},
+			"gpc": {
+				"code": "53000000",
+				"description": "Beauty / Personal Care / Hygiene"
+			}
+		},
+		{
+			"description": "THE CURE PURE SERUM",
+			"gtin": 8436002998694,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/8436002998694",
+			"width": 5.588,
+			"height": 14.4018,
+			"length": 5.588,
+			"net_weight": 149,
+			"gross_weight": 149,
+			"created_at": "2015-09-18T18:02:05.000-03:00",
+			"updated_at": "2017-02-18T00:53:41.000-02:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 8436002998694,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/E261A9683D6BA40C75D4F9CFAF1809A7.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			},
+			"gpc": {
+				"code": "53000000",
+				"description": "Beauty / Personal Care / Hygiene"
+			}
+		},
+		{
+			"description": "C+C VITAMIN SCRUB",
+			"gtin": 8436002998816,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-09-18T18:02:06.000-03:00",
+			"updated_at": "2019-12-11T12:07:21.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 8436002998816,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/E261A9683D6BA40CA7925BD3C69A9503.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			},
+			"gpc": {
+				"code": "53000000",
+				"description": "Beauty / Personal Care / Hygiene"
+			}
+		},
+		{
+			"description": "NB-CEUTICAL TOLERANCE TONER",
+			"gtin": 8436002999721,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/8436002999721",
+			"width": 5.0038,
+			"height": 19.9898,
+			"length": 5.0038,
+			"net_weight": 205930,
+			"gross_weight": 205930,
+			"created_at": "2015-09-18T18:02:08.000-03:00",
+			"updated_at": "2019-12-11T15:59:30.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 8436002999721,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/E261A9683D6BA40CD979C6AE24F433FC.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			},
+			"gpc": {
+				"code": "53000000",
+				"description": "Beauty / Personal Care / Hygiene"
+			}
+		},
+		{
+			"description": "DIAMOND WHITE RICH LUXURY CLEANSE",
+			"gtin": 8436534711938,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/8436534711938",
+			"width": 10.4902,
+			"height": 8.6106,
+			"length": 10.4902,
+			"net_weight": 204,
+			"gross_weight": 204,
+			"created_at": "2015-09-18T18:04:54.000-03:00",
+			"updated_at": "2019-12-12T19:30:46.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 8436534711938,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/3E32C05BD630A935BA6EF086493B59DE.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			},
+			"gpc": {
+				"code": "53000000",
+				"description": "Beauty / Personal Care / Hygiene"
+			}
+		},
+		{
+			"description": "SPECIAL FX EYE ILLUMINATE - 15ML/0.5OZ",
+			"gtin": 71061283015,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/71061283015",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-11-19T09:31:09.000-02:00",
+			"updated_at": "2017-02-02T01:58:49.000-02:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 71061283015,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/99F906DD6673FCEB3203B91D13101378.png",
+			"brand": {
+				"name": "NATURA BISSÉ",
+				"picture": "https://cdn-cosmos.bluesoft.com.br/brands/brand_natura-bisse"
+			}
+		},
+		{
+			"description": "KB GEL REFRESCANTE NT FOTOEQUILIBRIO POS SOL 120G",
+			"gtin": 7899563820278,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7899563820278",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2017-04-24T08:32:00.000-03:00",
+			"updated_at": "2023-01-08T01:11:26.000-03:00",
+			"release_date": null,
+			"price": "$6.67",
+			"avg_price": 6.67,
+			"max_price": 6.67,
+			"min_price": 6.67,
+			"gtins": [
+				{
+					"gtin": 7899563820278,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/BF54B7CB2482579F4441B621F5273D52.png",
+			"brand": {
+				"name": "NATURA FOTOEQUILIBRIO",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "33049910",
+				"description": "Cremes de beleza e cremes nutritivos; loções tônicas",
+				"full_description": "Óleos essenciais e resinóides; produtos de perfumaria ou de toucador preparados e preparações cosméticas - Produtos de beleza ou de maquiagem preparados e preparações para conservação ou cuidados da pele (exceto medicamentos), incluindo as preparações antissolares e os bronzeadores; preparações para manicuros e pedicuros. - Outros: - Outros - Cremes de beleza e cremes nutritivos; loções tônicas",
+				"ex": null
+			}
+		},
+		{
+			"description": "BALA CARAMELO CREME 240G SULA SULA",
+			"gtin": 4003455112102,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2017-06-12T16:11:06.000-03:00",
+			"updated_at": "2020-12-24T13:41:45.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.09,
+			"min_price": 0.09,
+			"gtins": [
+				{
+					"gtin": 4003455112102,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/4D00159FB8276897BE56A1B677FDE488.png",
+			"brand": {
+				"name": "SULA NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "17049020",
+				"description": "Caramelos, confeitos, dropes, pastilhas, e produtos semelhantes",
+				"full_description": "Açúcares e produtos de confeitaria - Produtos de confeitaria, sem cacau (incluído o chocolate branco) - Outros - Caramelos, confeitos, dropes, pastilhas, e produtos semelhantes",
+				"ex": null
+			}
+		},
+		{
+			"description": "PAO DE FORMA IRMA DULCE 500 GR",
+			"gtin": 7897302500054,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2020-08-08T15:11:11.000-03:00",
+			"updated_at": "2023-03-16T00:36:22.000-03:00",
+			"release_date": null,
+			"price": "$1.04 to $2.65",
+			"avg_price": 1.845,
+			"max_price": 2.65,
+			"min_price": 1.04,
+			"gtins": [
+				{
+					"gtin": 7897302500054,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/DBE2E71F85DB9266EDA08F6E330FDBD1.png",
+			"brand": {
+				"name": "DULCE NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			}
+		},
+		{
+			"description": "PAO MILHO IRMA DULCE.",
+			"gtin": 7897302500078,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2020-08-11T01:11:24.000-03:00",
+			"updated_at": "2023-03-16T00:41:06.000-03:00",
+			"release_date": null,
+			"price": "$1.21 to $3.16",
+			"avg_price": 2.185,
+			"max_price": 3.16,
+			"min_price": 1.21,
+			"gtins": [
+				{
+					"gtin": 7897302500078,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/DBE2E71F85DB92666A308A51F63131C5.png",
+			"brand": {
+				"name": "DULCE NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			}
+		},
+		{
+			"description": "DEODORANT BODY SPRAY COLOGNE SCENTED MACADAMIA TODODIA -",
+			"gtin": 7898532705011,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7898532705011",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-12-02T06:04:18.000-02:00",
+			"updated_at": "2023-01-17T01:40:24.000-03:00",
+			"release_date": null,
+			"price": "$7.22",
+			"avg_price": 7.22,
+			"max_price": 7.22,
+			"min_price": 7.22,
+			"gtins": [
+				{
+					"gtin": 7898532705011,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/D55A52FCD9A64CBE291282B83E0D5D13.png",
+			"brand": {
+				"name": "NATURA TODODIA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "33072010",
+				"description": "Líquidos",
+				"full_description": "Óleos essenciais e resinóides; produtos de perfumaria ou de toucador preparados e preparações cosméticas - Preparações para barbear (antes, durante ou após), desodorantes corporais, preparações para banhos, depilatórios, outros produtos de perfumaria ou de toucador preparados e outras preparações cosméticas, não especificados nem compreendidos em outras posições; desodorantes de ambiente, preparados, mesmo não perfumados, com ou sem propriedades desinfetantes  - Desodorantes corporais e antiperspirantes - Líquidos",
+				"ex": null
+			}
+		},
+		{
+			"description": "AGUAS DESODORANTE COLONIA CAMPO DE VIOLETAS 150ML/ 4.8OZ",
+			"gtin": 7898460855116,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7898460855116",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2015-12-03T19:58:30.000-02:00",
+			"updated_at": "2022-09-02T14:56:56.000-03:00",
+			"release_date": null,
+			"price": "$6.09",
+			"avg_price": 6.09,
+			"max_price": 6.09,
+			"min_price": 6.09,
+			"gtins": [
+				{
+					"gtin": 7898460855116,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/78F8AB2D1816A7E6ED12CDF93825D615.png",
+			"brand": {
+				"name": "AGUAS DE NATURA",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			}
+		},
+		{
+			"description": "SABONETE GLICERINADO ARRUDA COM BABAÇU (PACOTE COM 3 UNIDADES)",
+			"gtin": 7894698225127,
+			"thumbnail": "https://cdn-cosmos.bluesoft.com.br/products/7894698225127",
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2017-05-26T13:49:34.000-03:00",
+			"updated_at": "2022-02-15T01:23:40.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": null,
+			"max_price": 0.0,
+			"min_price": 0.0,
+			"gtins": [
+				{
+					"gtin": 7894698225127,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/9E4A51276BC0D30C5401A63EFBDE2F7E.png",
+			"brand": {
+				"name": "SABONETE BARBATIMAO",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "34011190",
+				"description": "Outros",
+				"full_description": "Sabões, agentes orgânicos de superfície, preparações para lavagem, preparações lubrificantes, ceras artificiais, ceras preparadas, produtos de conservação e limpeza, velas e artigos semelhantes, massas ou pastas de modelar, \"ceras\" para dentistas e composições para dentista à base de gesso - Sabões; produtos e preparações orgânicos tensoativos utilizados como sabão, em barras, pães, pedaços ou figuras moldadas, mesmo que contenham sabão; produtos e preparações orgânicos tensoativos para lavagem da pele, em forma de líquido ou de creme, acondicionados para venda a retalho, mesmo que contenham sabão; papel, pastas (ouates), feltros e falsos tecidos, impregnados, revestidos ou recobertos de sabão ou de detergentes. - Sabões, produtos e preparações orgânicos tensoativos, em barras, pães, pedaços ou figurasmoldadas,epapel,pastas(ouates),feltrosefalsostecidos,impregnados, revestidos ou recobertos de sabão ou de detergentes: - De toucador (incluindo os de uso medicinal) - Outros",
+				"ex": null
+			},
+			"cest": {
+				"id": 2247,
+				"code": "2003400",
+				"description": "Sabões de toucador em barras, pedaços ou figuras moldados, exceto CEST 20.034.01",
+				"parent_id": 1674
+			}
+		},
+		{
+			"description": "SABONETE GLICERINADO BARBATIMÃO (PACOTE COM 3 UNIDADES)",
+			"gtin": 7894698225035,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2016-08-14T01:12:37.000-03:00",
+			"updated_at": "2023-04-13T14:52:58.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": 0.75,
+			"max_price": 0.75,
+			"min_price": 0.75,
+			"gtins": [
+				{
+					"gtin": 7894698225035,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/9E4A51276BC0D30C25BCF2F41E385C67.png",
+			"brand": {
+				"name": "SABONETE BARBATIMAO",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "34011190",
+				"description": "Outros",
+				"full_description": "Sabões, agentes orgânicos de superfície, preparações para lavagem, preparações lubrificantes, ceras artificiais, ceras preparadas, produtos de conservação e limpeza, velas e artigos semelhantes, massas ou pastas de modelar, \"ceras\" para dentistas e composições para dentista à base de gesso - Sabões; produtos e preparações orgânicos tensoativos utilizados como sabão, em barras, pães, pedaços ou figuras moldadas, mesmo que contenham sabão; produtos e preparações orgânicos tensoativos para lavagem da pele, em forma de líquido ou de creme, acondicionados para venda a retalho, mesmo que contenham sabão; papel, pastas (ouates), feltros e falsos tecidos, impregnados, revestidos ou recobertos de sabão ou de detergentes. - Sabões, produtos e preparações orgânicos tensoativos, em barras, pães, pedaços ou figurasmoldadas,epapel,pastas(ouates),feltrosefalsostecidos,impregnados, revestidos ou recobertos de sabão ou de detergentes: - De toucador (incluindo os de uso medicinal) - Outros",
+				"ex": null
+			},
+			"cest": {
+				"id": 2247,
+				"code": "2003400",
+				"description": "Sabões de toucador em barras, pedaços ou figuras moldados, exceto CEST 20.034.01",
+				"parent_id": 1674
+			}
+		},
+		{
+			"description": "SAB.BARBATIMAO BARRA",
+			"gtin": 7898351965177,
+			"width": null,
+			"height": null,
+			"length": null,
+			"net_weight": null,
+			"gross_weight": null,
+			"created_at": "2017-05-18T10:22:06.000-03:00",
+			"updated_at": "2023-03-13T04:44:51.000-03:00",
+			"release_date": null,
+			"price": null,
+			"avg_price": 0.995,
+			"max_price": 1.18,
+			"min_price": 0.81,
+			"gtins": [
+				{
+					"gtin": 7898351965177,
+					"commercial_unit": {
+						"type_packaging": "Unidade",
+						"quantity_packaging": 1,
+						"ballast": null,
+						"layer": null
+					}
+				}
+			],
+			"origin": "COSMOS",
+			"barcode_image": "https://api.cosmos.bluesoft.io/products/barcode/0044D42B5D6721381FE849300A14B963.png",
+			"brand": {
+				"name": "SABONETE BARBATIMAO",
+				"picture": "/assets/brand-placeholder-7080174fbd24025783105a607811edad.png"
+			},
+			"ncm": {
+				"code": "34011190",
+				"description": "Outros",
+				"full_description": "Sabões, agentes orgânicos de superfície, preparações para lavagem, preparações lubrificantes, ceras artificiais, ceras preparadas, produtos de conservação e limpeza, velas e artigos semelhantes, massas ou pastas de modelar, \"ceras\" para dentistas e composições para dentista à base de gesso - Sabões; produtos e preparações orgânicos tensoativos utilizados como sabão, em barras, pães, pedaços ou figuras moldadas, mesmo que contenham sabão; produtos e preparações orgânicos tensoativos para lavagem da pele, em forma de líquido ou de creme, acondicionados para venda a retalho, mesmo que contenham sabão; papel, pastas (ouates), feltros e falsos tecidos, impregnados, revestidos ou recobertos de sabão ou de detergentes. - Sabões, produtos e preparações orgânicos tensoativos, em barras, pães, pedaços ou figurasmoldadas,epapel,pastas(ouates),feltrosefalsostecidos,impregnados, revestidos ou recobertos de sabão ou de detergentes: - De toucador (incluindo os de uso medicinal) - Outros",
+				"ex": null
+			},
+			"cest": {
+				"id": 2247,
+				"code": "2003400",
+				"description": "Sabões de toucador em barras, pedaços ou figuras moldados, exceto CEST 20.034.01",
+				"parent_id": 1674
+			}
+		}
+	]
