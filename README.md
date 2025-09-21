@@ -27,7 +27,7 @@ A comprehensive React application built with PrimeReact that provides dynamic da
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/hugomf/primereact-product.git
    cd primereact-product
    ```
 
