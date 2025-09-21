@@ -4,14 +4,12 @@ import  SideBarMenu  from './components/navigation/SideBarMenu';
 import { Dashboard } from "./components/Dashboard";
 import { Comment } from "./components/Comment";
 import { Analytics } from "./components/Analytics";
-import { VscFiles, 
-  VscSearch,
-  VscSourceControl,
-  VscDebugAlt, 
-  VscExtensions, 
+import { VscSourceControl,
+  VscDebugAlt,
+  VscExtensions,
   VscBeaker, VscListUnordered } from "react-icons/vsc";
 
-  import { FaListUl, FaUsers } from "react-icons/fa";
+  import { FaUsers } from "react-icons/fa";
 
   
 

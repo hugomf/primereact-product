@@ -2,13 +2,12 @@ import React, { useState } from 'react'
 import { classNames } from '../../utils/classNames';
 import {VscMenu} from "react-icons/vsc";
 import SideBarMenuItemView from './SideBarMenuItemView';
-import SideBardMenuCardView from './SideBarMenuCardView';
 import "./SideBarMenu.scss";
 
 
 const SideBarMenu = (props) => {
 
-  const {items, card, children} = props
+  const {items, children} = props
 
   const [isExpanded, expand] = useState(true);
 
